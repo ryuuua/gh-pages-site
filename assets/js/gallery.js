@@ -178,12 +178,12 @@ function renderGallery() {
   const itemsToShow = currentCategory.items.slice(startIndex, endIndex);
 
   itemsToShow.forEach(item => {
-    const card = createGalleryItem(item);
+    const card = createGalleryItem(item, currentCategory);
     galleryContainer.appendChild(card);
   });
 }
 
-function createGalleryItem(item) {
+function createGalleryItem(item, category) {
   const itemEl = document.createElement('div');
   itemEl.className = 'gallery-item';
 
@@ -213,8 +213,9 @@ function createGalleryItem(item) {
   }
 
   const typeBadge = document.createElement('span');
-  typeBadge.className = `gallery-item-type type-${item.type}`;
-  typeBadge.textContent = getBadgeLabel(item);
+  const badgeClass = item.type ? ` type-${item.type}` : '';
+  typeBadge.className = `gallery-item-type${badgeClass}`;
+  typeBadge.textContent = getBadgeLabel(item, category);
 
   itemEl.appendChild(title);
   itemEl.appendChild(content);
@@ -223,11 +224,33 @@ function createGalleryItem(item) {
   return itemEl;
 }
 
-function getBadgeLabel(item) {
+function formatMetaTag(meta = {}) {
+  if (!meta) return '';
+  const pieces = [];
+  if (meta.dataset) pieces.push(meta.dataset);
+  if (meta.embeddingModel) pieces.push(meta.embeddingModel);
+  if (meta.cebra) pieces.push(meta.cebra);
+  if (meta.notes) pieces.push(meta.notes);
+  return pieces.join(' • ');
+}
+
+function getBadgeLabel(item, category) {
+  const configured =
+    item.tag ||
+    item.meta?.tag ||
+    category?.tag ||
+    category?.meta?.tag ||
+    formatMetaTag(item.meta) ||
+    formatMetaTag(category?.meta);
+
+  if (configured) {
+    return configured;
+  }
+
   if (item.type === 'html') return 'HTML';
   const parts = item.filename.split('.');
   const ext = parts.length > 1 ? parts.pop() : item.type;
-  return ext.toUpperCase();
+  return (ext || '').toUpperCase();
 }
 
 function getItemSrc(item) {

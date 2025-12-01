@@ -62,3 +62,35 @@ python3 -m http.server 4173
 The gallery reads `assets/data/gallery-data.json`, so keep that manifest in sync with the
 contents of `public_gallery/` whenever you regenerate the subset.
 
+### Customizing badges/tags
+
+Each gallery item renders the badge (`span.gallery-item-type`) from the manifest. By default it
+falls back to the file type (PNG/HTML), but you can override it to show dataset names, embedding
+models, or CEBRA settings:
+
+```json
+{
+  "categories": [
+    {
+      "name": "daircos:all-MiniLM-L6-v2_plot",
+      "meta": {
+        "dataset": "daircos (CEBRA_NLP)",
+        "embeddingModel": "all-MiniLM-L6-v2",
+        "cebra": "sigma=0.8 / static PCA"
+      },
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image",
+          "tag": "Dataset A / MiniLM / CEBRA sigma=0.8"
+        }
+      ]
+    }
+  ]
+}
+```
+
+Precedence is `item.tag` → `item.meta.tag` → `category.tag` → formatted `meta` fields → file type.
+Edit `assets/data/gallery-data.json` manually to set whichever string you prefer for each badge.
+

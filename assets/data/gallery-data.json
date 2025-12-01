@@ -9,6 +9,11 @@
       "name": "daircos:all-MiniLM-L6-v2_plot",
       "slug": "daircos-all-minilm-l6-v2-plot",
       "path": "daircos:all-MiniLM-L6-v2_plot",
+      "meta": {
+        "dataset": "daircos (CEBRA_NLP)",
+        "embeddingModel": "all-MiniLM-L6-v2",
+        "cebra": "CEBRA static PCA"
+      },
       "items": [
         {
           "file": "static_PCA_plot 2.png",
@@ -52,6 +57,11 @@
       "name": "daircos:google:embeddinggemma-300M_plot",
       "slug": "daircos-google-embeddinggemma-300m-plot",
       "path": "daircos:google:embeddinggemma-300M_plot",
+      "meta": {
+        "dataset": "daircos (CEBRA_NLP)",
+        "embeddingModel": "embeddinggemma-300M",
+        "cebra": "CEBRA static PCA"
+      },
       "items": [
         {
           "file": "static_PCA_plot 2.png",
@@ -95,6 +105,11 @@
       "name": "daircos:Qwen:Qwen3-Embedding-8B_plot",
       "slug": "daircos-qwen-qwen3-embedding-8b-plot",
       "path": "daircos:Qwen:Qwen3-Embedding-8B_plot",
+      "meta": {
+        "dataset": "daircos (CEBRA_NLP)",
+        "embeddingModel": "Qwen3-Embedding-8B",
+        "cebra": "CEBRA static PCA"
+      },
       "items": [
         {
           "file": "static_PCA_plot 2.png",
@@ -138,6 +153,11 @@
       "name": "daircos:sentence-transformers:all-mpnet-base-v2_plot",
       "slug": "daircos-sentence-transformers-all-mpnet-base-v2-plot",
       "path": "daircos:sentence-transformers:all-mpnet-base-v2_plot",
+      "meta": {
+        "dataset": "daircos (CEBRA_NLP)",
+        "embeddingModel": "all-mpnet-base-v2",
+        "cebra": "CEBRA static PCA"
+      },
       "items": [
         {
           "file": "static_PCA_plot 2.png",
