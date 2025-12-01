@@ -41,10 +41,24 @@ Adjust the environment variables for different category filters or limits.
 
 1. `cd gh-pages-site`
 2. `git init` (only once) and add your GitHub remote (e.g. `git remote add origin git@github...`)
-3. `git add . && git commit -m "Initial GitHub Pages build"`
-4. Push to the branch that backs GitHub Pages (`main`, `master`, or `gh-pages` depending on repo settings)
-5. Enable Pages for that branch in your GitHub repository settings
+3. Keep the provided `.nojekyll` file so GitHub Pages serves files with colons (`daircos:...`) as-is without trying to run Jekyll.
+4. `git add . && git commit -m "Initial GitHub Pages build"`
+5. Push to the branch that backs GitHub Pages (`main`, `master`, or `gh-pages` depending on repo settings)
+6. Enable Pages for that branch in your GitHub repository settings
 
 You can also copy this directory to another repo entirely if you prefer to keep the
 lightweight site separate from the full dataset.
+
+### Local preview
+
+Before pushing, verify the static bundle with any simple HTTP server so that `fetch` works:
+
+```bash
+cd gh-pages-site
+python3 -m http.server 4173
+# visit http://localhost:4173
+```
+
+The gallery reads `assets/data/gallery-data.json`, so keep that manifest in sync with the
+contents of `public_gallery/` whenever you regenerate the subset.
 

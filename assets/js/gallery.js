@@ -3,6 +3,37 @@ const DEFAULT_MANIFEST_PATH = 'assets/data/gallery-data.json';
 const currentScriptTag = document.currentScript;
 const scriptDefinedManifest = currentScriptTag?.dataset?.manifest;
 
+function encodePathSegment(segment = '') {
+  return segment
+    .split('/')
+    .map(part => encodeURIComponent(part))
+    .join('/');
+}
+
+function buildAssetPath(...segments) {
+  return segments
+    .filter(Boolean)
+    .map(encodePathSegment)
+    .join('/');
+}
+
+function formatSourceLabel(data = {}) {
+  if (data.sourceLabel) {
+    return data.sourceLabel;
+  }
+  if (!data.sourceDir) {
+    return '';
+  }
+  const normalized = data.sourceDir.replace(/\\/g, '/').replace(/\/+$/, '');
+  if (/^[A-Za-z]:\//.test(normalized) || normalized.startsWith('/')) {
+    const parts = normalized.split('/').filter(Boolean);
+    if (parts.length >= 2) {
+      return parts.slice(-2).join('/');
+    }
+  }
+  return data.sourceDir;
+}
+
 function resolveManifestPath() {
   if (scriptDefinedManifest) {
     return scriptDefinedManifest;
@@ -200,8 +231,7 @@ function getBadgeLabel(item) {
 }
 
 function getItemSrc(item) {
-  const rawPath = `${galleryData.baseUrl}/${currentCategory.path}/${item.file}`;
-  return encodeURI(rawPath);
+  return buildAssetPath(galleryData.baseUrl, currentCategory?.path, item.file);
 }
 
 function getTotalPages() {
@@ -287,8 +317,15 @@ async function initGallery() {
   try {
     setMessage('Loading plots...');
     galleryData = await fetchGalleryData();
-    if (sourcePath && galleryData.sourceDir) {
-      sourcePath.textContent = `Source: ${galleryData.sourceDir}`;
+    if (sourcePath) {
+      const sourceLabel = formatSourceLabel(galleryData);
+      if (sourceLabel) {
+        sourcePath.textContent = `Source: ${sourceLabel}`;
+        sourcePath.style.display = 'block';
+      } else {
+        sourcePath.textContent = '';
+        sourcePath.style.display = 'none';
+      }
     }
     buildCategoryNav();
     const initialSlug = getInitialCategorySlug();
