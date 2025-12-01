@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plots Gallery Docs</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/gallery.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a class="site-title" href="index.html">Plots Gallery (Lightweight)</a>
+    </div>
+  </header>
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <section class="card">
+        <h1>How this build is generated</h1>
+        <ol>
+          <li>Run <code>node scripts/create-public-gallery.js</code> in the main project to generate <code>public_gallery/</code> and <code>assets/data/gallery-data.public.json</code>.</li>
+          <li>Copy the resulting <code>public_gallery/</code> and manifest into this directory (see <code>README.md</code>).</li>
+          <li>Commit this directory to the repository that backs GitHub Pages.</li>
+        </ol>
+        <p>Only a handful of assets are included so that GitHub Pages stays within quota limits. To expand the gallery, regenerate the subset with different filters before copying.</p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
+

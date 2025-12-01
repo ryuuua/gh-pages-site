@@ -1,0 +1,181 @@
+{
+  "baseUrl": "public_gallery",
+  "sourceDir": "/Users/ryua/code/plotpages/public_gallery",
+  "generatedAt": "2025-12-01T05:42:20.164Z",
+  "categoryCount": 4,
+  "totalItems": 24,
+  "categories": [
+    {
+      "name": "daircos:all-MiniLM-L6-v2_plot",
+      "slug": "daircos-all-minilm-l6-v2-plot",
+      "path": "daircos:all-MiniLM-L6-v2_plot",
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 7.png",
+          "filename": "static_PCA_plot 7.png",
+          "title": "static PCA plot 7",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "daircos:google:embeddinggemma-300M_plot",
+      "slug": "daircos-google-embeddinggemma-300m-plot",
+      "path": "daircos:google:embeddinggemma-300M_plot",
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 7.png",
+          "filename": "static_PCA_plot 7.png",
+          "title": "static PCA plot 7",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "daircos:Qwen:Qwen3-Embedding-8B_plot",
+      "slug": "daircos-qwen-qwen3-embedding-8b-plot",
+      "path": "daircos:Qwen:Qwen3-Embedding-8B_plot",
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 7.png",
+          "filename": "static_PCA_plot 7.png",
+          "title": "static PCA plot 7",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "daircos:sentence-transformers:all-mpnet-base-v2_plot",
+      "slug": "daircos-sentence-transformers-all-mpnet-base-v2-plot",
+      "path": "daircos:sentence-transformers:all-mpnet-base-v2_plot",
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}

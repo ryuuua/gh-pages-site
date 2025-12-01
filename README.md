@@ -1,0 +1,50 @@
+## Plotpages GitHub Pages Build
+
+This directory is a self-contained, publishable version of the gallery that only ships a
+handful of representative plots, making it small enough to commit to a GitHub Pages
+repository.
+
+### Structure
+
+```
+gh-pages-site/
+├── index.html                     # Gallery entry point
+├── assets/
+│   ├── css/
+│   │   ├── main.css
+│   │   └── gallery.css
+│   ├── data/
+│   │   └── gallery-data.json      # Manifest that points to ./public_gallery/*
+│   └── js/
+│       └── gallery.js             # Frontend logic (same as main project)
+└── public_gallery/                # Copied subset of images for publishing
+```
+
+### Regenerating the subset
+
+From the root project (`/Users/ryua/code/plotpages`) run:
+
+```bash
+PUBLIC_GALLERY_INCLUDE="daircos:all-MiniLM-L6-v2_plot,daircos:google:embeddinggemma-300M_plot" \
+PUBLIC_GALLERY_MAX_ITEMS=6 \
+node scripts/create-public-gallery.js
+
+# Refresh this directory after regeneration:
+rm -rf gh-pages-site/public_gallery
+cp -R public_gallery gh-pages-site/public_gallery
+cp assets/data/gallery-data.public.json gh-pages-site/assets/data/gallery-data.json
+```
+
+Adjust the environment variables for different category filters or limits.
+
+### Publishing workflow
+
+1. `cd gh-pages-site`
+2. `git init` (only once) and add your GitHub remote (e.g. `git remote add origin git@github...`)
+3. `git add . && git commit -m "Initial GitHub Pages build"`
+4. Push to the branch that backs GitHub Pages (`main`, `master`, or `gh-pages` depending on repo settings)
+5. Enable Pages for that branch in your GitHub repository settings
+
+You can also copy this directory to another repo entirely if you prefer to keep the
+lightweight site separate from the full dataset.
+

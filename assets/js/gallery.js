@@ -1,0 +1,309 @@
+const PLOTS_PER_PAGE = 12;
+const DEFAULT_MANIFEST_PATH = 'assets/data/gallery-data.json';
+const currentScriptTag = document.currentScript;
+const scriptDefinedManifest = currentScriptTag?.dataset?.manifest;
+
+function resolveManifestPath() {
+  if (scriptDefinedManifest) {
+    return scriptDefinedManifest;
+  }
+
+  if (typeof window !== 'undefined' && window.GALLERY_DATA_PATH) {
+    return window.GALLERY_DATA_PATH;
+  }
+
+  if (typeof window !== 'undefined') {
+    const params = new URL(window.location.href).searchParams;
+    const manifestParam = params.get('data');
+    if (manifestParam) {
+      return manifestParam.endsWith('.json')
+        ? manifestParam
+        : `assets/data/${manifestParam}.json`;
+    }
+  }
+
+  return DEFAULT_MANIFEST_PATH;
+}
+
+const manifestPath = resolveManifestPath();
+
+let galleryData;
+let currentCategory = null;
+let currentPage = 0;
+
+const galleryContainer = document.getElementById('gallery-container');
+const prevBtn = document.getElementById('prev-btn');
+const nextBtn = document.getElementById('next-btn');
+const paginationInfo = document.getElementById('pagination-info');
+const categoryNav = document.getElementById('category-nav');
+const categoryMeta = document.getElementById('category-meta');
+const galleryMessage = document.getElementById('gallery-message');
+const sourcePath = document.getElementById('gallery-source');
+
+function setMessage(message, isError = false) {
+  if (!galleryMessage) return;
+  if (!message) {
+    galleryMessage.classList.remove('is-visible', 'is-error');
+    galleryMessage.textContent = '';
+    return;
+  }
+  galleryMessage.textContent = message;
+  galleryMessage.classList.add('is-visible');
+  galleryMessage.classList.toggle('is-error', Boolean(isError));
+}
+
+async function fetchGalleryData() {
+  const response = await fetch(manifestPath, { cache: 'no-store' });
+  if (!response.ok) {
+    throw new Error(`Failed to load gallery data (${response.status})`);
+  }
+  const data = await response.json();
+  if (!data.categories || data.categories.length === 0) {
+    throw new Error('No categories found in gallery data');
+  }
+  return data;
+}
+
+function getSlugFromLocation() {
+  const params = new URL(window.location.href).searchParams;
+  return params.get('category');
+}
+
+function getInitialCategorySlug() {
+  const slugFromUrl = getSlugFromLocation();
+  if (slugFromUrl && galleryData.categories.some(cat => cat.slug === slugFromUrl)) {
+    return slugFromUrl;
+  }
+  return galleryData.categories[0].slug;
+}
+
+function buildCategoryNav() {
+  if (!categoryNav) return;
+  categoryNav.innerHTML = '';
+
+  galleryData.categories.forEach(category => {
+    const pill = document.createElement('a');
+    pill.href = `?category=${encodeURIComponent(category.slug)}`;
+    pill.className = 'category-pill';
+    pill.dataset.slug = category.slug;
+    pill.innerHTML = `
+      <span class="pill-label">${category.name}</span>
+      <span class="pill-count">${category.items.length}</span>
+    `;
+    pill.addEventListener('click', event => {
+      event.preventDefault();
+      if (category.slug !== currentCategory?.slug) {
+        setCategory(category.slug);
+      }
+    });
+    categoryNav.appendChild(pill);
+  });
+}
+
+function setCategory(slug, { skipUrlUpdate = false } = {}) {
+  const category =
+    galleryData.categories.find(cat => cat.slug === slug) || galleryData.categories[0];
+
+  if (!category) return;
+
+  currentCategory = category;
+  currentPage = 0;
+
+  highlightActiveCategory(category.slug);
+  updateCategoryMeta();
+  renderGallery();
+  updatePaginationControls();
+
+  if (!skipUrlUpdate) {
+    updateUrl(category.slug);
+  }
+}
+
+function highlightActiveCategory(slug) {
+  if (!categoryNav) return;
+  const pills = categoryNav.querySelectorAll('.category-pill');
+  pills.forEach(pill => {
+    pill.classList.toggle('active', pill.dataset.slug === slug);
+  });
+}
+
+function updateCategoryMeta() {
+  if (!categoryMeta || !currentCategory) return;
+  categoryMeta.textContent = `${currentCategory.items.length} plots • ${currentCategory.path}`;
+}
+
+function renderGallery() {
+  if (!galleryContainer) return;
+  galleryContainer.innerHTML = '';
+
+  if (!currentCategory || !currentCategory.items.length) {
+    setMessage('このカテゴリには表示できるプロットがありません。', false);
+    return;
+  }
+
+  setMessage('');
+  const startIndex = currentPage * PLOTS_PER_PAGE;
+  const endIndex = Math.min(startIndex + PLOTS_PER_PAGE, currentCategory.items.length);
+  const itemsToShow = currentCategory.items.slice(startIndex, endIndex);
+
+  itemsToShow.forEach(item => {
+    const card = createGalleryItem(item);
+    galleryContainer.appendChild(card);
+  });
+}
+
+function createGalleryItem(item) {
+  const itemEl = document.createElement('div');
+  itemEl.className = 'gallery-item';
+
+  const title = document.createElement('h3');
+  title.className = 'gallery-item-title';
+  title.textContent = item.title;
+
+  const content = document.createElement('div');
+  content.className = 'gallery-item-content';
+
+  const src = getItemSrc(item);
+
+  if (item.type === 'html') {
+    const iframe = document.createElement('iframe');
+    iframe.src = src;
+    iframe.title = item.title;
+    iframe.loading = 'lazy';
+    content.appendChild(iframe);
+  } else {
+    const img = document.createElement('img');
+    img.src = src;
+    img.alt = item.title;
+    img.loading = 'lazy';
+    img.style.width = '100%';
+    img.style.height = 'auto';
+    content.appendChild(img);
+  }
+
+  const typeBadge = document.createElement('span');
+  typeBadge.className = `gallery-item-type type-${item.type}`;
+  typeBadge.textContent = getBadgeLabel(item);
+
+  itemEl.appendChild(title);
+  itemEl.appendChild(content);
+  itemEl.appendChild(typeBadge);
+
+  return itemEl;
+}
+
+function getBadgeLabel(item) {
+  if (item.type === 'html') return 'HTML';
+  const parts = item.filename.split('.');
+  const ext = parts.length > 1 ? parts.pop() : item.type;
+  return ext.toUpperCase();
+}
+
+function getItemSrc(item) {
+  const rawPath = `${galleryData.baseUrl}/${currentCategory.path}/${item.file}`;
+  return encodeURI(rawPath);
+}
+
+function getTotalPages() {
+  if (!currentCategory) return 0;
+  return Math.ceil(currentCategory.items.length / PLOTS_PER_PAGE);
+}
+
+function updatePaginationControls() {
+  if (!prevBtn || !nextBtn || !paginationInfo) return;
+
+  if (!currentCategory) {
+    paginationInfo.textContent = '0 / 0';
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+    return;
+  }
+
+  const totalPages = getTotalPages();
+
+  if (currentCategory.items.length === 0) {
+    paginationInfo.textContent = '0 / 0';
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+    return;
+  }
+
+  const startIndex = currentPage * PLOTS_PER_PAGE + 1;
+  const endIndex = Math.min((currentPage + 1) * PLOTS_PER_PAGE, currentCategory.items.length);
+  paginationInfo.textContent = `${startIndex}-${endIndex} / ${currentCategory.items.length}`;
+
+  prevBtn.disabled = currentPage === 0;
+  nextBtn.disabled = currentPage >= totalPages - 1;
+}
+
+function scrollToGalleryTop() {
+  if (!galleryContainer) return;
+  galleryContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function attachEventListeners() {
+  if (prevBtn) {
+    prevBtn.addEventListener('click', () => {
+      if (currentPage > 0) {
+        currentPage -= 1;
+        renderGallery();
+        updatePaginationControls();
+        scrollToGalleryTop();
+      }
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      const totalPages = getTotalPages();
+      if (currentPage < totalPages - 1) {
+        currentPage += 1;
+        renderGallery();
+        updatePaginationControls();
+        scrollToGalleryTop();
+      }
+    });
+  }
+
+  window.addEventListener('popstate', event => {
+    const slug = event.state?.category || getSlugFromLocation();
+    if (slug && slug !== currentCategory?.slug) {
+      setCategory(slug, { skipUrlUpdate: true });
+    }
+  });
+}
+
+function updateUrl(slug, replace = false) {
+  const url = new URL(window.location.href);
+  url.searchParams.set('category', slug);
+  if (replace) {
+    history.replaceState({ category: slug }, '', url);
+  } else {
+    history.pushState({ category: slug }, '', url);
+  }
+}
+
+async function initGallery() {
+  try {
+    setMessage('Loading plots...');
+    galleryData = await fetchGalleryData();
+    if (sourcePath && galleryData.sourceDir) {
+      sourcePath.textContent = `Source: ${galleryData.sourceDir}`;
+    }
+    buildCategoryNav();
+    const initialSlug = getInitialCategorySlug();
+    setCategory(initialSlug, { skipUrlUpdate: true });
+    updateUrl(initialSlug, true);
+    attachEventListeners();
+    setMessage('');
+  } catch (error) {
+    console.error(error);
+    setMessage('ギャラリーデータの読み込みに失敗しました。`scripts/build-gallery-data.js` を再実行してください。', true);
+  }
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initGallery);
+} else {
+  initGallery();
+}

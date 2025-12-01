@@ -1,0 +1,212 @@
+/* Gallery-specific styles */
+
+.gallery-description {
+  margin-bottom: 2rem;
+  color: var(--muted);
+}
+
+.gallery-source {
+  margin: -0.25rem 0 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  opacity: 0.9;
+  word-break: break-all;
+  overflow-wrap: anywhere;
+}
+
+.category-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1rem 0 0.6rem;
+}
+
+.category-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  flex: 1 1 auto;
+}
+
+.category-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 0.95rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--fg);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition), background var(--transition);
+}
+
+.category-pill .pill-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--muted);
+}
+
+.category-pill:hover,
+.category-pill:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 12px 24px rgba(124, 92, 255, 0.15);
+  outline: none;
+}
+
+.category-pill.active {
+  background: var(--accent-soft);
+  border-color: rgba(124, 92, 255, 0.4);
+  color: var(--fg);
+}
+
+.category-meta {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.gallery-message {
+  display: none;
+  margin: 0.9rem 0 0.6rem;
+  padding: 0.9rem 1rem;
+  border-radius: var(--radius-sm);
+  border: 1px dashed rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--muted);
+}
+
+.gallery-message.is-visible {
+  display: block;
+}
+
+.gallery-message.is-error {
+  border-color: rgba(255, 87, 87, 0.35);
+  background: rgba(255, 87, 87, 0.08);
+  color: #ffb3b3;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.gallery-item {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: var(--radius-md);
+  padding: 1.2rem;
+  transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
+  overflow: hidden;
+}
+
+.gallery-item:hover {
+  transform: translateY(-6px);
+  border-color: rgba(124, 92, 255, 0.35);
+  box-shadow: 0 20px 40px rgba(124, 92, 255, 0.2);
+}
+
+.gallery-item-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem 0;
+  color: var(--fg);
+}
+
+.gallery-item-content {
+  position: relative;
+  width: 100%;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.gallery-item-content svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+}
+
+.gallery-item-content iframe {
+  display: block;
+  width: 100%;
+  height: 400px;
+  border: none;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.gallery-item-type {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: rgba(124, 92, 255, 0.15);
+  border: 1px solid rgba(124, 92, 255, 0.3);
+  color: rgba(245, 247, 255, 0.9);
+}
+
+.gallery-item-type.type-html {
+  background: rgba(6, 214, 160, 0.15);
+  border-color: rgba(6, 214, 160, 0.3);
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pagination-info {
+  color: var(--muted);
+  font-size: 0.9rem;
+  min-width: 120px;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .category-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .pagination-controls {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .pagination-controls .btn {
+    width: 100%;
+  }
+}

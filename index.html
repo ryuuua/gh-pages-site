@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plots Gallery (GitHub Pages)</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/gallery.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a class="site-title" rel="author" href="index.html">
+        Plots Gallery (Lightweight)
+      </a>
+
+      <input type="checkbox" id="site-nav-toggle" class="nav-toggle">
+      <label for="site-nav-toggle" class="nav-toggle-label">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="hamburger" aria-hidden="true"></span>
+      </label>
+
+      <nav class="site-nav" id="site-nav-menu" aria-label="Main navigation">
+        <div class="nav-groups">
+          <ul class="nav-group nav-group--global">
+            <li><a class="nav-link" href="index.html">Gallery</a></li>
+            <li><a class="nav-link" href="README.html">Docs</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <section class="card" id="gallery">
+        <h1>GitHub Pages Sample Gallery</h1>
+        <p class="gallery-description">
+          研究成果ギャラリーの軽量サンプルです。`scripts/create-public-gallery.js` で抽出した数カテゴリ・数枚の画像だけを含みます。
+        </p>
+        <p class="gallery-source" id="gallery-source"></p>
+
+        <div class="category-bar">
+          <div id="category-nav" class="category-nav" aria-label="Plot categories"></div>
+          <div id="category-meta" class="category-meta"></div>
+        </div>
+
+        <div id="gallery-message" class="gallery-message"></div>
+
+        <div id="gallery-container" class="gallery-grid"></div>
+
+        <div class="pagination-controls" id="pagination-controls">
+          <button class="btn ghost" id="prev-btn" disabled>Previous</button>
+          <span class="pagination-info" id="pagination-info"></span>
+          <button class="btn ghost" id="next-btn">Next</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p class="site-footer-owner">
+        © Ryunosuke Abe — Sample gallery for GitHub Pages
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/gallery.js"></script>
+</body>
+</html>
+
