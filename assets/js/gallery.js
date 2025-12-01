@@ -231,7 +231,42 @@ function formatMetaTag(meta = {}) {
   if (meta.embeddingModel) pieces.push(meta.embeddingModel);
   if (meta.cebra) pieces.push(meta.cebra);
   if (meta.notes) pieces.push(meta.notes);
-  return pieces.join(' • ');
+  return pieces.join(' / ');
+}
+
+function splitPathSegments(value = '') {
+  if (!value) return [];
+  return value
+    .replace(/\\/g, '/')
+    .split('/')
+    .flatMap(segment => segment.split(':'))
+    .map(part => {
+      try {
+        return decodeURIComponent(part.trim());
+      } catch (error) {
+        return part.trim();
+      }
+    })
+    .filter(Boolean);
+}
+
+function buildPathTag(category, item) {
+  const categorySegments = splitPathSegments(category?.path);
+  const itemSegments = splitPathSegments(item?.file).filter(Boolean);
+
+  if (itemSegments.length) {
+    const last = itemSegments[itemSegments.length - 1];
+    if (/\.[A-Za-z0-9]+$/.test(last)) {
+      itemSegments.pop();
+    }
+  }
+
+  const combined = [...categorySegments, ...itemSegments].filter(Boolean);
+  if (!combined.length) {
+    return '';
+  }
+
+  return combined.slice(-3).join(' / ');
 }
 
 function getBadgeLabel(item, category) {
@@ -241,7 +276,8 @@ function getBadgeLabel(item, category) {
     category?.tag ||
     category?.meta?.tag ||
     formatMetaTag(item.meta) ||
-    formatMetaTag(category?.meta);
+    formatMetaTag(category?.meta) ||
+    buildPathTag(category, item);
 
   if (configured) {
     return configured;

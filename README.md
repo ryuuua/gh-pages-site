@@ -91,6 +91,9 @@ models, or CEBRA settings:
 }
 ```
 
-Precedence is `item.tag` → `item.meta.tag` → `category.tag` → formatted `meta` fields → file type.
-Edit `assets/data/gallery-data.json` manually to set whichever string you prefer for each badge.
+Precedence is `item.tag` → `item.meta.tag` → `category.tag` → formatted `meta` fields → folder structure
+→ file type. If you skip all meta fields, the badge automatically uses the last three segments of the
+path (e.g. `datasets/embeddingmodel/CEBRAsetting` becomes `datasets / embeddingmodel / CEBRAsetting`).
+Edit `assets/data/gallery-data.json` manually to set whichever string you prefer for each badge, or
+rely on your directory hierarchy for automatic labels.
 
