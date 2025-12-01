@@ -64,9 +64,9 @@ contents of `public_gallery/` whenever you regenerate the subset.
 
 ### Customizing badges/tags
 
-Each gallery item renders the badge (`span.gallery-item-type`) from the manifest. By default it
-falls back to the file type (PNG/HTML), but you can override it to show dataset names, embedding
-models, or CEBRA settings:
+Each gallery item renders up to three color-coded badges (`span.gallery-item-tag`) from the
+manifest. By default it falls back to the file type (PNG/HTML), but you can override it to show
+dataset names, embedding models, or CEBRA settings:
 
 ```json
 {
@@ -91,9 +91,13 @@ models, or CEBRA settings:
 }
 ```
 
-Precedence is `item.tag` → `item.meta.tag` → `category.tag` → formatted `meta` fields → folder structure
-→ file type. If you skip all meta fields, the badge automatically uses the last three segments of the
-path (e.g. `datasets/embeddingmodel/CEBRAsetting` becomes `datasets / embeddingmodel / CEBRAsetting`).
-Edit `assets/data/gallery-data.json` manually to set whichever string you prefer for each badge, or
-rely on your directory hierarchy for automatic labels.
+For fine-grained control, supply `tags` (array) or `tag` (string) on either the item or category. The
+full precedence is `item.tags` → `item.meta.tags` → `category.tags` → `category.meta.tags`
+→ `item.tag` → `item.meta.tag` → `category.tag` → `category.meta.tag` → meta fields
+(`dataset`, `embeddingModel`, `cebra`, `notes`) → folder structure → file type. If you skip all meta
+fields, the badges automatically use the last three segments of the path (e.g.
+`datasets/embeddingmodel/CEBRAsetting` becomes `datasets / embeddingmodel / CEBRAsetting`). Edit
+`assets/data/gallery-data.json` manually to set whichever string you prefer for each badge, or rely on
+your directory hierarchy for automatic labels. The first, second, and third segments are rendered
+with distinct accent colors so datasets, embedding models, and CEBRA settings are easy to scan.
 

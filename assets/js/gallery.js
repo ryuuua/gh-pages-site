@@ -212,26 +212,24 @@ function createGalleryItem(item, category) {
     content.appendChild(img);
   }
 
-  const typeBadge = document.createElement('span');
-  const badgeClass = item.type ? ` type-${item.type}` : '';
-  typeBadge.className = `gallery-item-type${badgeClass}`;
-  typeBadge.textContent = getBadgeLabel(item, category);
-
   itemEl.appendChild(title);
   itemEl.appendChild(content);
-  itemEl.appendChild(typeBadge);
+
+  const tagSegments = getTagSegments(item, category);
+  if (tagSegments.length) {
+    const tagsWrapper = document.createElement('div');
+    tagsWrapper.className = 'gallery-item-tags';
+    tagSegments.forEach((label, index) => {
+      const tag = document.createElement('span');
+      const tier = Math.min(index + 1, 3);
+      tag.className = `gallery-item-tag tag-level-${tier}`;
+      tag.textContent = label;
+      tagsWrapper.appendChild(tag);
+    });
+    itemEl.appendChild(tagsWrapper);
+  }
 
   return itemEl;
-}
-
-function formatMetaTag(meta = {}) {
-  if (!meta) return '';
-  const pieces = [];
-  if (meta.dataset) pieces.push(meta.dataset);
-  if (meta.embeddingModel) pieces.push(meta.embeddingModel);
-  if (meta.cebra) pieces.push(meta.cebra);
-  if (meta.notes) pieces.push(meta.notes);
-  return pieces.join(' / ');
 }
 
 function splitPathSegments(value = '') {
@@ -250,9 +248,34 @@ function splitPathSegments(value = '') {
     .filter(Boolean);
 }
 
-function buildPathTag(category, item) {
+function cleanSegments(list = []) {
+  return list
+    .map(segment => {
+      if (segment === null || segment === undefined) return '';
+      return String(segment).trim();
+    })
+    .filter(Boolean);
+}
+
+function coerceToSegments(value) {
+  if (value === null || value === undefined) {
+    return [];
+  }
+
+  if (Array.isArray(value)) {
+    return cleanSegments(value);
+  }
+
+  return cleanSegments(
+    String(value)
+      .split(/\/|•|\|/g)
+      .map(part => part.replace(/^[\s-]+/, ''))
+  );
+}
+
+function buildPathTagSegments(category, item) {
   const categorySegments = splitPathSegments(category?.path);
-  const itemSegments = splitPathSegments(item?.file).filter(Boolean);
+  const itemSegments = splitPathSegments(item?.file);
 
   if (itemSegments.length) {
     const last = itemSegments[itemSegments.length - 1];
@@ -263,30 +286,70 @@ function buildPathTag(category, item) {
 
   const combined = [...categorySegments, ...itemSegments].filter(Boolean);
   if (!combined.length) {
-    return '';
+    return [];
   }
 
-  return combined.slice(-3).join(' / ');
+  return cleanSegments(combined.slice(-3));
 }
 
-function getBadgeLabel(item, category) {
-  const configured =
-    item.tag ||
-    item.meta?.tag ||
-    category?.tag ||
-    category?.meta?.tag ||
-    formatMetaTag(item.meta) ||
-    formatMetaTag(category?.meta) ||
-    buildPathTag(category, item);
+function collectMetaSegments(item, category) {
+  const dataset = item.meta?.dataset || category?.meta?.dataset;
+  const embedding = item.meta?.embeddingModel || category?.meta?.embeddingModel;
+  const cebra = item.meta?.cebra || category?.meta?.cebra;
+  const notes = item.meta?.notes || category?.meta?.notes;
 
-  if (configured) {
-    return configured;
+  const segments = [];
+  if (dataset) segments.push(dataset);
+  if (embedding) segments.push(embedding);
+  if (cebra) segments.push(cebra);
+  else if (notes) segments.push(notes);
+
+  return cleanSegments(segments);
+}
+
+function getTagSegments(item, category) {
+  const configuredSources = [
+    item.tags,
+    item.meta?.tags,
+    category?.tags,
+    category?.meta?.tags,
+  ];
+
+  for (const source of configuredSources) {
+    const segments = coerceToSegments(source);
+    if (segments.length) {
+      return segments.slice(0, 3);
+    }
   }
 
-  if (item.type === 'html') return 'HTML';
+  const legacySources = [
+    item.tag,
+    item.meta?.tag,
+    category?.tag,
+    category?.meta?.tag,
+  ];
+
+  for (const source of legacySources) {
+    const segments = coerceToSegments(source);
+    if (segments.length) {
+      return segments.slice(0, 3);
+    }
+  }
+
+  const metaSegments = collectMetaSegments(item, category);
+  if (metaSegments.length) {
+    return metaSegments.slice(0, 3);
+  }
+
+  const pathSegments = buildPathTagSegments(category, item);
+  if (pathSegments.length) {
+    return pathSegments;
+  }
+
+  if (item.type === 'html') return ['HTML'];
   const parts = item.filename.split('.');
   const ext = parts.length > 1 ? parts.pop() : item.type;
-  return (ext || '').toUpperCase();
+  return ext ? [String(ext).toUpperCase()] : [];
 }
 
 function getItemSrc(item) {
