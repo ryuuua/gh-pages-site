@@ -1,4 +1,5 @@
 const PLOTS_PER_PAGE = 12;
+const MAX_ITEMS_PER_CATEGORY = 6;
 const DEFAULT_MANIFEST_PATH = 'assets/data/gallery-data.json';
 const currentScriptTag = document.currentScript;
 const scriptDefinedManifest = currentScriptTag?.dataset?.manifest;
@@ -93,6 +94,15 @@ async function fetchGalleryData() {
     throw new Error('No categories found in gallery data');
   }
   return data;
+}
+
+function limitCategoryItems(data, limit = MAX_ITEMS_PER_CATEGORY) {
+  if (!data?.categories) return data;
+  const categories = data.categories.map(category => ({
+    ...category,
+    items: (category.items || []).slice(0, limit),
+  }));
+  return { ...data, categories };
 }
 
 function getSlugFromLocation() {
@@ -438,7 +448,7 @@ function updateUrl(slug, replace = false) {
 async function initGallery() {
   try {
     setMessage('Loading plots...');
-    galleryData = await fetchGalleryData();
+    galleryData = limitCategoryItems(await fetchGalleryData());
     if (sourcePath) {
       const sourceLabel = formatSourceLabel(galleryData);
       if (sourceLabel) {

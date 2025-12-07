@@ -1,9 +1,9 @@
 {
   "baseUrl": "public_gallery",
   "sourceDir": "/Users/ryua/code/plotpages/public_gallery",
-  "generatedAt": "2025-12-07T21:44:36.472Z",
+  "generatedAt": "2025-12-07T22:42:52.858022Z",
   "categoryCount": 65,
-  "totalItems": 259,
+  "totalItems": 198,
   "categories": [
     {
       "name": "daircos:all-MiniLM-L6-v2_plot",
@@ -49,24 +49,6 @@
           "file": "static_PCA_plot 7.png",
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 8.png",
-          "filename": "static_PCA_plot 8.png",
-          "title": "static PCA plot 8",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 9.png",
-          "filename": "static_PCA_plot 9.png",
-          "title": "static PCA plot 9",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
           "type": "image"
         }
       ]
@@ -116,30 +98,6 @@
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
           "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 8.png",
-          "filename": "static_PCA_plot 8.png",
-          "title": "static PCA plot 8",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 9.png",
-          "filename": "static_PCA_plot 9.png",
-          "title": "static PCA plot 9",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 10.png",
-          "filename": "static_PCA_plot 10.png",
-          "title": "static PCA plot 10",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
-          "type": "image"
         }
       ]
     },
@@ -187,30 +145,6 @@
           "file": "static_PCA_plot 7.png",
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 8.png",
-          "filename": "static_PCA_plot 8.png",
-          "title": "static PCA plot 8",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 9.png",
-          "filename": "static_PCA_plot 9.png",
-          "title": "static PCA plot 9",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 10.png",
-          "filename": "static_PCA_plot 10.png",
-          "title": "static PCA plot 10",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
           "type": "image"
         }
       ]
@@ -260,24 +194,6 @@
           "filename": "static_PCA_plot 8.png",
           "title": "static PCA plot 8",
           "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 9.png",
-          "filename": "static_PCA_plot 9.png",
-          "title": "static PCA plot 9",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 10.png",
-          "filename": "static_PCA_plot 10.png",
-          "title": "static PCA plot 10",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
-          "type": "image"
         }
       ]
     },
@@ -321,30 +237,6 @@
           "file": "static_PCA_plot 7.png",
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 8.png",
-          "filename": "static_PCA_plot 8.png",
-          "title": "static PCA plot 8",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 9.png",
-          "filename": "static_PCA_plot 9.png",
-          "title": "static PCA plot 9",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 10.png",
-          "filename": "static_PCA_plot 10.png",
-          "title": "static PCA plot 10",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
           "type": "image"
         }
       ]
@@ -390,24 +282,6 @@
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
           "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 8.png",
-          "filename": "static_PCA_plot 8.png",
-          "title": "static PCA plot 8",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 9.png",
-          "filename": "static_PCA_plot 9.png",
-          "title": "static PCA plot 9",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
-          "type": "image"
         }
       ]
     },
@@ -451,24 +325,6 @@
           "file": "static_PCA_plot 7.png",
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 8.png",
-          "filename": "static_PCA_plot 8.png",
-          "title": "static PCA plot 8",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 9.png",
-          "filename": "static_PCA_plot 9.png",
-          "title": "static PCA plot 9",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
           "type": "image"
         }
       ]
@@ -514,30 +370,6 @@
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
           "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 8.png",
-          "filename": "static_PCA_plot 8.png",
-          "title": "static PCA plot 8",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 9.png",
-          "filename": "static_PCA_plot 9.png",
-          "title": "static PCA plot 9",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 10.png",
-          "filename": "static_PCA_plot 10.png",
-          "title": "static PCA plot 10",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
-          "type": "image"
         }
       ]
     },
@@ -581,30 +413,6 @@
           "file": "static_PCA_plot 7.png",
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 8.png",
-          "filename": "static_PCA_plot 8.png",
-          "title": "static PCA plot 8",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 9.png",
-          "filename": "static_PCA_plot 9.png",
-          "title": "static PCA plot 9",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 10.png",
-          "filename": "static_PCA_plot 10.png",
-          "title": "static PCA plot 10",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
           "type": "image"
         }
       ]
@@ -1610,30 +1418,6 @@
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
           "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 8.png",
-          "filename": "static_PCA_plot 8.png",
-          "title": "static PCA plot 8",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 9.png",
-          "filename": "static_PCA_plot 9.png",
-          "title": "static PCA plot 9",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 10.png",
-          "filename": "static_PCA_plot 10.png",
-          "title": "static PCA plot 10",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
-          "type": "image"
         }
       ]
     },
@@ -1677,30 +1461,6 @@
           "file": "static_PCA_plot 7.png",
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 8.png",
-          "filename": "static_PCA_plot 8.png",
-          "title": "static PCA plot 8",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 9.png",
-          "filename": "static_PCA_plot 9.png",
-          "title": "static PCA plot 9",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 10.png",
-          "filename": "static_PCA_plot 10.png",
-          "title": "static PCA plot 10",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
           "type": "image"
         }
       ]
@@ -1746,24 +1506,6 @@
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
           "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 8.png",
-          "filename": "static_PCA_plot 8.png",
-          "title": "static PCA plot 8",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 9.png",
-          "filename": "static_PCA_plot 9.png",
-          "title": "static PCA plot 9",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
-          "type": "image"
         }
       ]
     },
@@ -1807,30 +1549,6 @@
           "file": "static_PCA_plot 7.png",
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 8.png",
-          "filename": "static_PCA_plot 8.png",
-          "title": "static PCA plot 8",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 9.png",
-          "filename": "static_PCA_plot 9.png",
-          "title": "static PCA plot 9",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 10.png",
-          "filename": "static_PCA_plot 10.png",
-          "title": "static PCA plot 10",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
           "type": "image"
         }
       ]
@@ -1876,30 +1594,6 @@
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
           "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 8.png",
-          "filename": "static_PCA_plot 8.png",
-          "title": "static PCA plot 8",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 9.png",
-          "filename": "static_PCA_plot 9.png",
-          "title": "static PCA plot 9",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 10.png",
-          "filename": "static_PCA_plot 10.png",
-          "title": "static PCA plot 10",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
-          "type": "image"
         }
       ]
     },
@@ -1943,30 +1637,6 @@
           "file": "static_PCA_plot 7.png",
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 8.png",
-          "filename": "static_PCA_plot 8.png",
-          "title": "static PCA plot 8",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 9.png",
-          "filename": "static_PCA_plot 9.png",
-          "title": "static PCA plot 9",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 10.png",
-          "filename": "static_PCA_plot 10.png",
-          "title": "static PCA plot 10",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
           "type": "image"
         }
       ]
@@ -2012,18 +1682,6 @@
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
           "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 8.png",
-          "filename": "static_PCA_plot 8.png",
-          "title": "static PCA plot 8",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
-          "type": "image"
         }
       ]
     },
@@ -2067,30 +1725,6 @@
           "file": "static_PCA_plot 7.png",
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 8.png",
-          "filename": "static_PCA_plot 8.png",
-          "title": "static PCA plot 8",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 9.png",
-          "filename": "static_PCA_plot 9.png",
-          "title": "static PCA plot 9",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot 10.png",
-          "filename": "static_PCA_plot 10.png",
-          "title": "static PCA plot 10",
-          "type": "image"
-        },
-        {
-          "file": "static_PCA_plot.png",
-          "filename": "static_PCA_plot.png",
-          "title": "static PCA plot",
           "type": "image"
         }
       ]
