@@ -1,9 +1,9 @@
 {
   "baseUrl": "public_gallery",
   "sourceDir": "/Users/ryua/code/plotpages/public_gallery",
-  "generatedAt": "2025-12-07T22:42:52.858022Z",
+  "generatedAt": "2025-12-07T22:52:52.214762Z",
   "categoryCount": 65,
-  "totalItems": 198,
+  "totalItems": 150,
   "categories": [
     {
       "name": "daircos:all-MiniLM-L6-v2_plot",
@@ -428,12 +428,6 @@
           "filename": "ag_news_01_pca_embeddings_2d.png",
           "title": "ag news 01 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "ag_news_01_pca_embeddings_3d.png",
-          "filename": "ag_news_01_pca_embeddings_3d.png",
-          "title": "ag news 01 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -447,12 +441,6 @@
           "file": "ag_news_02_pca_embeddings_2d.png",
           "filename": "ag_news_02_pca_embeddings_2d.png",
           "title": "ag news 02 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "ag_news_02_pca_embeddings_3d.png",
-          "filename": "ag_news_02_pca_embeddings_3d.png",
-          "title": "ag news 02 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -468,12 +456,6 @@
           "filename": "ag_news_03_pca_embeddings_2d.png",
           "title": "ag news 03 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "ag_news_03_pca_embeddings_3d.png",
-          "filename": "ag_news_03_pca_embeddings_3d.png",
-          "title": "ag news 03 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -487,12 +469,6 @@
           "file": "ag_news_04_pca_embeddings_2d.png",
           "filename": "ag_news_04_pca_embeddings_2d.png",
           "title": "ag news 04 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "ag_news_04_pca_embeddings_3d.png",
-          "filename": "ag_news_04_pca_embeddings_3d.png",
-          "title": "ag news 04 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -508,12 +484,6 @@
           "filename": "ag_news_05_pca_embeddings_2d.png",
           "title": "ag news 05 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "ag_news_05_pca_embeddings_3d.png",
-          "filename": "ag_news_05_pca_embeddings_3d.png",
-          "title": "ag news 05 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -527,12 +497,6 @@
           "file": "ag_news_06_pca_embeddings_2d.png",
           "filename": "ag_news_06_pca_embeddings_2d.png",
           "title": "ag news 06 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "ag_news_06_pca_embeddings_3d.png",
-          "filename": "ag_news_06_pca_embeddings_3d.png",
-          "title": "ag news 06 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -548,12 +512,6 @@
           "filename": "ag_news_07_pca_embeddings_2d.png",
           "title": "ag news 07 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "ag_news_07_pca_embeddings_3d.png",
-          "filename": "ag_news_07_pca_embeddings_3d.png",
-          "title": "ag news 07 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -567,12 +525,6 @@
           "file": "ag_news_08_pca_embeddings_2d.png",
           "filename": "ag_news_08_pca_embeddings_2d.png",
           "title": "ag news 08 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "ag_news_08_pca_embeddings_3d.png",
-          "filename": "ag_news_08_pca_embeddings_3d.png",
-          "title": "ag news 08 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -588,12 +540,6 @@
           "filename": "dair-ai_01_pca_embeddings_2d.png",
           "title": "dair ai 01 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "dair-ai_01_pca_embeddings_3d.png",
-          "filename": "dair-ai_01_pca_embeddings_3d.png",
-          "title": "dair ai 01 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -607,12 +553,6 @@
           "file": "dair-ai_02_pca_embeddings_2d.png",
           "filename": "dair-ai_02_pca_embeddings_2d.png",
           "title": "dair ai 02 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "dair-ai_02_pca_embeddings_3d.png",
-          "filename": "dair-ai_02_pca_embeddings_3d.png",
-          "title": "dair ai 02 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -628,12 +568,6 @@
           "filename": "dair-ai_03_pca_embeddings_2d.png",
           "title": "dair ai 03 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "dair-ai_03_pca_embeddings_3d.png",
-          "filename": "dair-ai_03_pca_embeddings_3d.png",
-          "title": "dair ai 03 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -647,12 +581,6 @@
           "file": "dair-ai_04_pca_embeddings_2d.png",
           "filename": "dair-ai_04_pca_embeddings_2d.png",
           "title": "dair ai 04 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "dair-ai_04_pca_embeddings_3d.png",
-          "filename": "dair-ai_04_pca_embeddings_3d.png",
-          "title": "dair ai 04 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -668,12 +596,6 @@
           "filename": "dair-ai_05_pca_embeddings_2d.png",
           "title": "dair ai 05 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "dair-ai_05_pca_embeddings_3d.png",
-          "filename": "dair-ai_05_pca_embeddings_3d.png",
-          "title": "dair ai 05 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -687,12 +609,6 @@
           "file": "dair-ai_06_pca_embeddings_2d.png",
           "filename": "dair-ai_06_pca_embeddings_2d.png",
           "title": "dair ai 06 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "dair-ai_06_pca_embeddings_3d.png",
-          "filename": "dair-ai_06_pca_embeddings_3d.png",
-          "title": "dair ai 06 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -708,12 +624,6 @@
           "filename": "dair-ai_07_pca_embeddings_2d.png",
           "title": "dair ai 07 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "dair-ai_07_pca_embeddings_3d.png",
-          "filename": "dair-ai_07_pca_embeddings_3d.png",
-          "title": "dair ai 07 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -727,12 +637,6 @@
           "file": "dair-ai_08_pca_embeddings_2d.png",
           "filename": "dair-ai_08_pca_embeddings_2d.png",
           "title": "dair ai 08 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "dair-ai_08_pca_embeddings_3d.png",
-          "filename": "dair-ai_08_pca_embeddings_3d.png",
-          "title": "dair ai 08 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -748,12 +652,6 @@
           "filename": "go_emotions_6labels_01_pca_embeddings_2d.png",
           "title": "go emotions 6labels 01 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "go_emotions_6labels_01_pca_embeddings_3d.png",
-          "filename": "go_emotions_6labels_01_pca_embeddings_3d.png",
-          "title": "go emotions 6labels 01 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -767,12 +665,6 @@
           "file": "go_emotions_6labels_02_pca_embeddings_2d.png",
           "filename": "go_emotions_6labels_02_pca_embeddings_2d.png",
           "title": "go emotions 6labels 02 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "go_emotions_6labels_02_pca_embeddings_3d.png",
-          "filename": "go_emotions_6labels_02_pca_embeddings_3d.png",
-          "title": "go emotions 6labels 02 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -788,12 +680,6 @@
           "filename": "go_emotions_6labels_03_pca_embeddings_2d.png",
           "title": "go emotions 6labels 03 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "go_emotions_6labels_03_pca_embeddings_3d.png",
-          "filename": "go_emotions_6labels_03_pca_embeddings_3d.png",
-          "title": "go emotions 6labels 03 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -807,12 +693,6 @@
           "file": "go_emotions_6labels_04_pca_embeddings_2d.png",
           "filename": "go_emotions_6labels_04_pca_embeddings_2d.png",
           "title": "go emotions 6labels 04 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "go_emotions_6labels_04_pca_embeddings_3d.png",
-          "filename": "go_emotions_6labels_04_pca_embeddings_3d.png",
-          "title": "go emotions 6labels 04 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -828,12 +708,6 @@
           "filename": "go_emotions_6labels_05_pca_embeddings_2d.png",
           "title": "go emotions 6labels 05 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "go_emotions_6labels_05_pca_embeddings_3d.png",
-          "filename": "go_emotions_6labels_05_pca_embeddings_3d.png",
-          "title": "go emotions 6labels 05 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -847,12 +721,6 @@
           "file": "go_emotions_6labels_06_pca_embeddings_2d.png",
           "filename": "go_emotions_6labels_06_pca_embeddings_2d.png",
           "title": "go emotions 6labels 06 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "go_emotions_6labels_06_pca_embeddings_3d.png",
-          "filename": "go_emotions_6labels_06_pca_embeddings_3d.png",
-          "title": "go emotions 6labels 06 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -868,12 +736,6 @@
           "filename": "go_emotions_6labels_07_pca_embeddings_2d.png",
           "title": "go emotions 6labels 07 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "go_emotions_6labels_07_pca_embeddings_3d.png",
-          "filename": "go_emotions_6labels_07_pca_embeddings_3d.png",
-          "title": "go emotions 6labels 07 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -887,12 +749,6 @@
           "file": "go_emotions_6labels_08_pca_embeddings_2d.png",
           "filename": "go_emotions_6labels_08_pca_embeddings_2d.png",
           "title": "go emotions 6labels 08 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "go_emotions_6labels_08_pca_embeddings_3d.png",
-          "filename": "go_emotions_6labels_08_pca_embeddings_3d.png",
-          "title": "go emotions 6labels 08 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -908,12 +764,6 @@
           "filename": "go_emotions_single_label_01_pca_embeddings_2d.png",
           "title": "go emotions single label 01 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "go_emotions_single_label_01_pca_embeddings_3d.png",
-          "filename": "go_emotions_single_label_01_pca_embeddings_3d.png",
-          "title": "go emotions single label 01 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -927,12 +777,6 @@
           "file": "go_emotions_single_label_02_pca_embeddings_2d.png",
           "filename": "go_emotions_single_label_02_pca_embeddings_2d.png",
           "title": "go emotions single label 02 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "go_emotions_single_label_02_pca_embeddings_3d.png",
-          "filename": "go_emotions_single_label_02_pca_embeddings_3d.png",
-          "title": "go emotions single label 02 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -948,12 +792,6 @@
           "filename": "go_emotions_single_label_03_pca_embeddings_2d.png",
           "title": "go emotions single label 03 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "go_emotions_single_label_03_pca_embeddings_3d.png",
-          "filename": "go_emotions_single_label_03_pca_embeddings_3d.png",
-          "title": "go emotions single label 03 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -967,12 +805,6 @@
           "file": "go_emotions_single_label_04_pca_embeddings_2d.png",
           "filename": "go_emotions_single_label_04_pca_embeddings_2d.png",
           "title": "go emotions single label 04 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "go_emotions_single_label_04_pca_embeddings_3d.png",
-          "filename": "go_emotions_single_label_04_pca_embeddings_3d.png",
-          "title": "go emotions single label 04 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -988,12 +820,6 @@
           "filename": "go_emotions_single_label_05_pca_embeddings_2d.png",
           "title": "go emotions single label 05 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "go_emotions_single_label_05_pca_embeddings_3d.png",
-          "filename": "go_emotions_single_label_05_pca_embeddings_3d.png",
-          "title": "go emotions single label 05 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -1007,12 +833,6 @@
           "file": "go_emotions_single_label_06_pca_embeddings_2d.png",
           "filename": "go_emotions_single_label_06_pca_embeddings_2d.png",
           "title": "go emotions single label 06 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "go_emotions_single_label_06_pca_embeddings_3d.png",
-          "filename": "go_emotions_single_label_06_pca_embeddings_3d.png",
-          "title": "go emotions single label 06 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -1028,12 +848,6 @@
           "filename": "go_emotions_single_label_07_pca_embeddings_2d.png",
           "title": "go emotions single label 07 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "go_emotions_single_label_07_pca_embeddings_3d.png",
-          "filename": "go_emotions_single_label_07_pca_embeddings_3d.png",
-          "title": "go emotions single label 07 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -1047,12 +861,6 @@
           "file": "go_emotions_single_label_08_pca_embeddings_2d.png",
           "filename": "go_emotions_single_label_08_pca_embeddings_2d.png",
           "title": "go emotions single label 08 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "go_emotions_single_label_08_pca_embeddings_3d.png",
-          "filename": "go_emotions_single_label_08_pca_embeddings_3d.png",
-          "title": "go emotions single label 08 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -1068,12 +876,6 @@
           "filename": "go_emotions_01_pca_embeddings_2d.png",
           "title": "go emotions 01 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "go_emotions_01_pca_embeddings_3d.png",
-          "filename": "go_emotions_01_pca_embeddings_3d.png",
-          "title": "go emotions 01 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -1087,12 +889,6 @@
           "file": "go_emotions_02_pca_embeddings_2d.png",
           "filename": "go_emotions_02_pca_embeddings_2d.png",
           "title": "go emotions 02 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "go_emotions_02_pca_embeddings_3d.png",
-          "filename": "go_emotions_02_pca_embeddings_3d.png",
-          "title": "go emotions 02 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -1108,12 +904,6 @@
           "filename": "go_emotions_03_pca_embeddings_2d.png",
           "title": "go emotions 03 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "go_emotions_03_pca_embeddings_3d.png",
-          "filename": "go_emotions_03_pca_embeddings_3d.png",
-          "title": "go emotions 03 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -1127,12 +917,6 @@
           "file": "go_emotions_04_pca_embeddings_2d.png",
           "filename": "go_emotions_04_pca_embeddings_2d.png",
           "title": "go emotions 04 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "go_emotions_04_pca_embeddings_3d.png",
-          "filename": "go_emotions_04_pca_embeddings_3d.png",
-          "title": "go emotions 04 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -1148,12 +932,6 @@
           "filename": "go_emotions_05_pca_embeddings_2d.png",
           "title": "go emotions 05 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "go_emotions_05_pca_embeddings_3d.png",
-          "filename": "go_emotions_05_pca_embeddings_3d.png",
-          "title": "go emotions 05 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -1167,12 +945,6 @@
           "file": "go_emotions_06_pca_embeddings_2d.png",
           "filename": "go_emotions_06_pca_embeddings_2d.png",
           "title": "go emotions 06 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "go_emotions_06_pca_embeddings_3d.png",
-          "filename": "go_emotions_06_pca_embeddings_3d.png",
-          "title": "go emotions 06 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -1188,12 +960,6 @@
           "filename": "go_emotions_07_pca_embeddings_2d.png",
           "title": "go emotions 07 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "go_emotions_07_pca_embeddings_3d.png",
-          "filename": "go_emotions_07_pca_embeddings_3d.png",
-          "title": "go emotions 07 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -1207,12 +973,6 @@
           "file": "go_emotions_08_pca_embeddings_2d.png",
           "filename": "go_emotions_08_pca_embeddings_2d.png",
           "title": "go emotions 08 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "go_emotions_08_pca_embeddings_3d.png",
-          "filename": "go_emotions_08_pca_embeddings_3d.png",
-          "title": "go emotions 08 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -1228,12 +988,6 @@
           "filename": "twenty_newsgroups_01_pca_embeddings_2d.png",
           "title": "twenty newsgroups 01 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "twenty_newsgroups_01_pca_embeddings_3d.png",
-          "filename": "twenty_newsgroups_01_pca_embeddings_3d.png",
-          "title": "twenty newsgroups 01 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -1247,12 +1001,6 @@
           "file": "twenty_newsgroups_02_pca_embeddings_2d.png",
           "filename": "twenty_newsgroups_02_pca_embeddings_2d.png",
           "title": "twenty newsgroups 02 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "twenty_newsgroups_02_pca_embeddings_3d.png",
-          "filename": "twenty_newsgroups_02_pca_embeddings_3d.png",
-          "title": "twenty newsgroups 02 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -1268,12 +1016,6 @@
           "filename": "twenty_newsgroups_03_pca_embeddings_2d.png",
           "title": "twenty newsgroups 03 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "twenty_newsgroups_03_pca_embeddings_3d.png",
-          "filename": "twenty_newsgroups_03_pca_embeddings_3d.png",
-          "title": "twenty newsgroups 03 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -1287,12 +1029,6 @@
           "file": "twenty_newsgroups_04_pca_embeddings_2d.png",
           "filename": "twenty_newsgroups_04_pca_embeddings_2d.png",
           "title": "twenty newsgroups 04 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "twenty_newsgroups_04_pca_embeddings_3d.png",
-          "filename": "twenty_newsgroups_04_pca_embeddings_3d.png",
-          "title": "twenty newsgroups 04 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -1308,12 +1044,6 @@
           "filename": "twenty_newsgroups_05_pca_embeddings_2d.png",
           "title": "twenty newsgroups 05 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "twenty_newsgroups_05_pca_embeddings_3d.png",
-          "filename": "twenty_newsgroups_05_pca_embeddings_3d.png",
-          "title": "twenty newsgroups 05 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -1327,12 +1057,6 @@
           "file": "twenty_newsgroups_06_pca_embeddings_2d.png",
           "filename": "twenty_newsgroups_06_pca_embeddings_2d.png",
           "title": "twenty newsgroups 06 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "twenty_newsgroups_06_pca_embeddings_3d.png",
-          "filename": "twenty_newsgroups_06_pca_embeddings_3d.png",
-          "title": "twenty newsgroups 06 pca embeddings 3d",
           "type": "image"
         }
       ]
@@ -1348,12 +1072,6 @@
           "filename": "twenty_newsgroups_07_pca_embeddings_2d.png",
           "title": "twenty newsgroups 07 pca embeddings 2d",
           "type": "image"
-        },
-        {
-          "file": "twenty_newsgroups_07_pca_embeddings_3d.png",
-          "filename": "twenty_newsgroups_07_pca_embeddings_3d.png",
-          "title": "twenty newsgroups 07 pca embeddings 3d",
-          "type": "image"
         }
       ]
     },
@@ -1367,12 +1085,6 @@
           "file": "twenty_newsgroups_08_pca_embeddings_2d.png",
           "filename": "twenty_newsgroups_08_pca_embeddings_2d.png",
           "title": "twenty newsgroups 08 pca embeddings 2d",
-          "type": "image"
-        },
-        {
-          "file": "twenty_newsgroups_08_pca_embeddings_3d.png",
-          "filename": "twenty_newsgroups_08_pca_embeddings_3d.png",
-          "title": "twenty newsgroups 08 pca embeddings 3d",
           "type": "image"
         }
       ]
