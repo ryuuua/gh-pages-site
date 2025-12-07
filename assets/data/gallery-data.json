@@ -1,9 +1,9 @@
 {
   "baseUrl": "public_gallery",
   "sourceDir": "/Users/ryua/code/plotpages/public_gallery",
-  "generatedAt": "2025-12-01T05:42:20.164Z",
-  "categoryCount": 4,
-  "totalItems": 24,
+  "generatedAt": "2025-12-07T21:44:36.472Z",
+  "categoryCount": 65,
+  "totalItems": 259,
   "categories": [
     {
       "name": "daircos:all-MiniLM-L6-v2_plot",
@@ -49,6 +49,24 @@
           "file": "static_PCA_plot 7.png",
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 9.png",
+          "filename": "static_PCA_plot 9.png",
+          "title": "static PCA plot 9",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
           "type": "image"
         }
       ]
@@ -98,6 +116,30 @@
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
           "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 9.png",
+          "filename": "static_PCA_plot 9.png",
+          "title": "static PCA plot 9",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 10.png",
+          "filename": "static_PCA_plot 10.png",
+          "title": "static PCA plot 10",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
+          "type": "image"
         }
       ]
     },
@@ -146,6 +188,30 @@
           "filename": "static_PCA_plot 7.png",
           "title": "static PCA plot 7",
           "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 9.png",
+          "filename": "static_PCA_plot 9.png",
+          "title": "static PCA plot 9",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 10.png",
+          "filename": "static_PCA_plot 10.png",
+          "title": "static PCA plot 10",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
+          "type": "image"
         }
       ]
     },
@@ -193,6 +259,1838 @@
           "file": "static_PCA_plot 8.png",
           "filename": "static_PCA_plot 8.png",
           "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 9.png",
+          "filename": "static_PCA_plot 9.png",
+          "title": "static PCA plot 9",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 10.png",
+          "filename": "static_PCA_plot 10.png",
+          "title": "static PCA plot 10",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "daireuc:all-MiniLM-L6-v2_plot",
+      "slug": "daireuc-all-minilm-l6-v2-plot",
+      "path": "daireuc:all-MiniLM-L6-v2_plot",
+      "meta": {},
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 7.png",
+          "filename": "static_PCA_plot 7.png",
+          "title": "static PCA plot 7",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 9.png",
+          "filename": "static_PCA_plot 9.png",
+          "title": "static PCA plot 9",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 10.png",
+          "filename": "static_PCA_plot 10.png",
+          "title": "static PCA plot 10",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "daireuc:google:embeddinggemma-300M_plot",
+      "slug": "daireuc-google-embeddinggemma-300m-plot",
+      "path": "daireuc:google:embeddinggemma-300M_plot",
+      "meta": {},
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 7.png",
+          "filename": "static_PCA_plot 7.png",
+          "title": "static PCA plot 7",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 9.png",
+          "filename": "static_PCA_plot 9.png",
+          "title": "static PCA plot 9",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "daireuc:Qwen:Qwen3-Embedding-8B_plot",
+      "slug": "daireuc-qwen-qwen3-embedding-8b-plot",
+      "path": "daireuc:Qwen:Qwen3-Embedding-8B_plot",
+      "meta": {},
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 7.png",
+          "filename": "static_PCA_plot 7.png",
+          "title": "static PCA plot 7",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 9.png",
+          "filename": "static_PCA_plot 9.png",
+          "title": "static PCA plot 9",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "goemo6cos:google:embeddinggemma-300M_plot",
+      "slug": "goemo6cos-google-embeddinggemma-300m-plot",
+      "path": "goemo6cos:google:embeddinggemma-300M_plot",
+      "meta": {},
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 7.png",
+          "filename": "static_PCA_plot 7.png",
+          "title": "static PCA plot 7",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 9.png",
+          "filename": "static_PCA_plot 9.png",
+          "title": "static PCA plot 9",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 10.png",
+          "filename": "static_PCA_plot 10.png",
+          "title": "static PCA plot 10",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "goemo6euc:google:embeddinggemma-300M_plot",
+      "slug": "goemo6euc-google-embeddinggemma-300m-plot",
+      "path": "goemo6euc:google:embeddinggemma-300M_plot",
+      "meta": {},
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 7.png",
+          "filename": "static_PCA_plot 7.png",
+          "title": "static PCA plot 7",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 9.png",
+          "filename": "static_PCA_plot 9.png",
+          "title": "static PCA plot 9",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 10.png",
+          "filename": "static_PCA_plot 10.png",
+          "title": "static PCA plot 10",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/ag_news/01-bert-base-uncased",
+      "slug": "pca-embedding-ag-news-01-bert-base-uncased",
+      "path": "PCA_embedding/ag_news/01-bert-base-uncased",
+      "meta": {},
+      "items": [
+        {
+          "file": "ag_news_01_pca_embeddings_2d.png",
+          "filename": "ag_news_01_pca_embeddings_2d.png",
+          "title": "ag news 01 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "ag_news_01_pca_embeddings_3d.png",
+          "filename": "ag_news_01_pca_embeddings_3d.png",
+          "title": "ag news 01 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/ag_news/02-bert-base-uncased",
+      "slug": "pca-embedding-ag-news-02-bert-base-uncased",
+      "path": "PCA_embedding/ag_news/02-bert-base-uncased",
+      "meta": {},
+      "items": [
+        {
+          "file": "ag_news_02_pca_embeddings_2d.png",
+          "filename": "ag_news_02_pca_embeddings_2d.png",
+          "title": "ag news 02 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "ag_news_02_pca_embeddings_3d.png",
+          "filename": "ag_news_02_pca_embeddings_3d.png",
+          "title": "ag news 02 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/ag_news/03-ibm-granite_granite-embedding-english-r2",
+      "slug": "pca-embedding-ag-news-03-ibm-granite-granite-embedding-english-r2",
+      "path": "PCA_embedding/ag_news/03-ibm-granite_granite-embedding-english-r2",
+      "meta": {},
+      "items": [
+        {
+          "file": "ag_news_03_pca_embeddings_2d.png",
+          "filename": "ag_news_03_pca_embeddings_2d.png",
+          "title": "ag news 03 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "ag_news_03_pca_embeddings_3d.png",
+          "filename": "ag_news_03_pca_embeddings_3d.png",
+          "title": "ag news 03 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/ag_news/04-inaai_jina-embeddings-v2-base-en",
+      "slug": "pca-embedding-ag-news-04-inaai-jina-embeddings-v2-base-en",
+      "path": "PCA_embedding/ag_news/04-inaai_jina-embeddings-v2-base-en",
+      "meta": {},
+      "items": [
+        {
+          "file": "ag_news_04_pca_embeddings_2d.png",
+          "filename": "ag_news_04_pca_embeddings_2d.png",
+          "title": "ag news 04 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "ag_news_04_pca_embeddings_3d.png",
+          "filename": "ag_news_04_pca_embeddings_3d.png",
+          "title": "ag news 04 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/ag_news/05-Qwen_Qwen3-Embedding-8B",
+      "slug": "pca-embedding-ag-news-05-qwen-qwen3-embedding-8b",
+      "path": "PCA_embedding/ag_news/05-Qwen_Qwen3-Embedding-8B",
+      "meta": {},
+      "items": [
+        {
+          "file": "ag_news_05_pca_embeddings_2d.png",
+          "filename": "ag_news_05_pca_embeddings_2d.png",
+          "title": "ag news 05 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "ag_news_05_pca_embeddings_3d.png",
+          "filename": "ag_news_05_pca_embeddings_3d.png",
+          "title": "ag news 05 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/ag_news/06-roberta-base",
+      "slug": "pca-embedding-ag-news-06-roberta-base",
+      "path": "PCA_embedding/ag_news/06-roberta-base",
+      "meta": {},
+      "items": [
+        {
+          "file": "ag_news_06_pca_embeddings_2d.png",
+          "filename": "ag_news_06_pca_embeddings_2d.png",
+          "title": "ag news 06 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "ag_news_06_pca_embeddings_3d.png",
+          "filename": "ag_news_06_pca_embeddings_3d.png",
+          "title": "ag news 06 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/ag_news/07-sentence-transformers_all-mpnet-base-v2",
+      "slug": "pca-embedding-ag-news-07-sentence-transformers-all-mpnet-base-v2",
+      "path": "PCA_embedding/ag_news/07-sentence-transformers_all-mpnet-base-v2",
+      "meta": {},
+      "items": [
+        {
+          "file": "ag_news_07_pca_embeddings_2d.png",
+          "filename": "ag_news_07_pca_embeddings_2d.png",
+          "title": "ag news 07 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "ag_news_07_pca_embeddings_3d.png",
+          "filename": "ag_news_07_pca_embeddings_3d.png",
+          "title": "ag news 07 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/ag_news/08-all-MiniLM-L6-v2",
+      "slug": "pca-embedding-ag-news-08-all-minilm-l6-v2",
+      "path": "PCA_embedding/ag_news/08-all-MiniLM-L6-v2",
+      "meta": {},
+      "items": [
+        {
+          "file": "ag_news_08_pca_embeddings_2d.png",
+          "filename": "ag_news_08_pca_embeddings_2d.png",
+          "title": "ag news 08 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "ag_news_08_pca_embeddings_3d.png",
+          "filename": "ag_news_08_pca_embeddings_3d.png",
+          "title": "ag news 08 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/dair-ai/01-bert-base-uncased",
+      "slug": "pca-embedding-dair-ai-01-bert-base-uncased",
+      "path": "PCA_embedding/dair-ai/01-bert-base-uncased",
+      "meta": {},
+      "items": [
+        {
+          "file": "dair-ai_01_pca_embeddings_2d.png",
+          "filename": "dair-ai_01_pca_embeddings_2d.png",
+          "title": "dair ai 01 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "dair-ai_01_pca_embeddings_3d.png",
+          "filename": "dair-ai_01_pca_embeddings_3d.png",
+          "title": "dair ai 01 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/dair-ai/02-bert-base-uncased",
+      "slug": "pca-embedding-dair-ai-02-bert-base-uncased",
+      "path": "PCA_embedding/dair-ai/02-bert-base-uncased",
+      "meta": {},
+      "items": [
+        {
+          "file": "dair-ai_02_pca_embeddings_2d.png",
+          "filename": "dair-ai_02_pca_embeddings_2d.png",
+          "title": "dair ai 02 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "dair-ai_02_pca_embeddings_3d.png",
+          "filename": "dair-ai_02_pca_embeddings_3d.png",
+          "title": "dair ai 02 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/dair-ai/03-ibm-granite_granite-embedding-english-r2",
+      "slug": "pca-embedding-dair-ai-03-ibm-granite-granite-embedding-english-r2",
+      "path": "PCA_embedding/dair-ai/03-ibm-granite_granite-embedding-english-r2",
+      "meta": {},
+      "items": [
+        {
+          "file": "dair-ai_03_pca_embeddings_2d.png",
+          "filename": "dair-ai_03_pca_embeddings_2d.png",
+          "title": "dair ai 03 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "dair-ai_03_pca_embeddings_3d.png",
+          "filename": "dair-ai_03_pca_embeddings_3d.png",
+          "title": "dair ai 03 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/dair-ai/04-inaai_jina-embeddings-v2-base-en",
+      "slug": "pca-embedding-dair-ai-04-inaai-jina-embeddings-v2-base-en",
+      "path": "PCA_embedding/dair-ai/04-inaai_jina-embeddings-v2-base-en",
+      "meta": {},
+      "items": [
+        {
+          "file": "dair-ai_04_pca_embeddings_2d.png",
+          "filename": "dair-ai_04_pca_embeddings_2d.png",
+          "title": "dair ai 04 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "dair-ai_04_pca_embeddings_3d.png",
+          "filename": "dair-ai_04_pca_embeddings_3d.png",
+          "title": "dair ai 04 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/dair-ai/05-Qwen_Qwen3-Embedding-8B",
+      "slug": "pca-embedding-dair-ai-05-qwen-qwen3-embedding-8b",
+      "path": "PCA_embedding/dair-ai/05-Qwen_Qwen3-Embedding-8B",
+      "meta": {},
+      "items": [
+        {
+          "file": "dair-ai_05_pca_embeddings_2d.png",
+          "filename": "dair-ai_05_pca_embeddings_2d.png",
+          "title": "dair ai 05 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "dair-ai_05_pca_embeddings_3d.png",
+          "filename": "dair-ai_05_pca_embeddings_3d.png",
+          "title": "dair ai 05 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/dair-ai/06-roberta-base",
+      "slug": "pca-embedding-dair-ai-06-roberta-base",
+      "path": "PCA_embedding/dair-ai/06-roberta-base",
+      "meta": {},
+      "items": [
+        {
+          "file": "dair-ai_06_pca_embeddings_2d.png",
+          "filename": "dair-ai_06_pca_embeddings_2d.png",
+          "title": "dair ai 06 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "dair-ai_06_pca_embeddings_3d.png",
+          "filename": "dair-ai_06_pca_embeddings_3d.png",
+          "title": "dair ai 06 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/dair-ai/07-sentence-transformers_all-mpnet-base-v2",
+      "slug": "pca-embedding-dair-ai-07-sentence-transformers-all-mpnet-base-v2",
+      "path": "PCA_embedding/dair-ai/07-sentence-transformers_all-mpnet-base-v2",
+      "meta": {},
+      "items": [
+        {
+          "file": "dair-ai_07_pca_embeddings_2d.png",
+          "filename": "dair-ai_07_pca_embeddings_2d.png",
+          "title": "dair ai 07 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "dair-ai_07_pca_embeddings_3d.png",
+          "filename": "dair-ai_07_pca_embeddings_3d.png",
+          "title": "dair ai 07 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/dair-ai/08-all-MiniLM-L6-v2",
+      "slug": "pca-embedding-dair-ai-08-all-minilm-l6-v2",
+      "path": "PCA_embedding/dair-ai/08-all-MiniLM-L6-v2",
+      "meta": {},
+      "items": [
+        {
+          "file": "dair-ai_08_pca_embeddings_2d.png",
+          "filename": "dair-ai_08_pca_embeddings_2d.png",
+          "title": "dair ai 08 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "dair-ai_08_pca_embeddings_3d.png",
+          "filename": "dair-ai_08_pca_embeddings_3d.png",
+          "title": "dair ai 08 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions_6labels/01-bert-base-uncased",
+      "slug": "pca-embedding-go-emotions-6labels-01-bert-base-uncased",
+      "path": "PCA_embedding/go_emotions_6labels/01-bert-base-uncased",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_6labels_01_pca_embeddings_2d.png",
+          "filename": "go_emotions_6labels_01_pca_embeddings_2d.png",
+          "title": "go emotions 6labels 01 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_6labels_01_pca_embeddings_3d.png",
+          "filename": "go_emotions_6labels_01_pca_embeddings_3d.png",
+          "title": "go emotions 6labels 01 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions_6labels/02-bert-base-uncased",
+      "slug": "pca-embedding-go-emotions-6labels-02-bert-base-uncased",
+      "path": "PCA_embedding/go_emotions_6labels/02-bert-base-uncased",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_6labels_02_pca_embeddings_2d.png",
+          "filename": "go_emotions_6labels_02_pca_embeddings_2d.png",
+          "title": "go emotions 6labels 02 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_6labels_02_pca_embeddings_3d.png",
+          "filename": "go_emotions_6labels_02_pca_embeddings_3d.png",
+          "title": "go emotions 6labels 02 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions_6labels/03-ibm-granite_granite-embedding-english-r2",
+      "slug": "pca-embedding-go-emotions-6labels-03-ibm-granite-granite-embedding-english-r2",
+      "path": "PCA_embedding/go_emotions_6labels/03-ibm-granite_granite-embedding-english-r2",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_6labels_03_pca_embeddings_2d.png",
+          "filename": "go_emotions_6labels_03_pca_embeddings_2d.png",
+          "title": "go emotions 6labels 03 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_6labels_03_pca_embeddings_3d.png",
+          "filename": "go_emotions_6labels_03_pca_embeddings_3d.png",
+          "title": "go emotions 6labels 03 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions_6labels/04-inaai_jina-embeddings-v2-base-en",
+      "slug": "pca-embedding-go-emotions-6labels-04-inaai-jina-embeddings-v2-base-en",
+      "path": "PCA_embedding/go_emotions_6labels/04-inaai_jina-embeddings-v2-base-en",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_6labels_04_pca_embeddings_2d.png",
+          "filename": "go_emotions_6labels_04_pca_embeddings_2d.png",
+          "title": "go emotions 6labels 04 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_6labels_04_pca_embeddings_3d.png",
+          "filename": "go_emotions_6labels_04_pca_embeddings_3d.png",
+          "title": "go emotions 6labels 04 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions_6labels/05-Qwen_Qwen3-Embedding-8B",
+      "slug": "pca-embedding-go-emotions-6labels-05-qwen-qwen3-embedding-8b",
+      "path": "PCA_embedding/go_emotions_6labels/05-Qwen_Qwen3-Embedding-8B",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_6labels_05_pca_embeddings_2d.png",
+          "filename": "go_emotions_6labels_05_pca_embeddings_2d.png",
+          "title": "go emotions 6labels 05 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_6labels_05_pca_embeddings_3d.png",
+          "filename": "go_emotions_6labels_05_pca_embeddings_3d.png",
+          "title": "go emotions 6labels 05 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions_6labels/06-roberta-base",
+      "slug": "pca-embedding-go-emotions-6labels-06-roberta-base",
+      "path": "PCA_embedding/go_emotions_6labels/06-roberta-base",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_6labels_06_pca_embeddings_2d.png",
+          "filename": "go_emotions_6labels_06_pca_embeddings_2d.png",
+          "title": "go emotions 6labels 06 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_6labels_06_pca_embeddings_3d.png",
+          "filename": "go_emotions_6labels_06_pca_embeddings_3d.png",
+          "title": "go emotions 6labels 06 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions_6labels/07-sentence-transformers_all-mpnet-base-v2",
+      "slug": "pca-embedding-go-emotions-6labels-07-sentence-transformers-all-mpnet-base-v2",
+      "path": "PCA_embedding/go_emotions_6labels/07-sentence-transformers_all-mpnet-base-v2",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_6labels_07_pca_embeddings_2d.png",
+          "filename": "go_emotions_6labels_07_pca_embeddings_2d.png",
+          "title": "go emotions 6labels 07 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_6labels_07_pca_embeddings_3d.png",
+          "filename": "go_emotions_6labels_07_pca_embeddings_3d.png",
+          "title": "go emotions 6labels 07 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions_6labels/08-all-MiniLM-L6-v2",
+      "slug": "pca-embedding-go-emotions-6labels-08-all-minilm-l6-v2",
+      "path": "PCA_embedding/go_emotions_6labels/08-all-MiniLM-L6-v2",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_6labels_08_pca_embeddings_2d.png",
+          "filename": "go_emotions_6labels_08_pca_embeddings_2d.png",
+          "title": "go emotions 6labels 08 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_6labels_08_pca_embeddings_3d.png",
+          "filename": "go_emotions_6labels_08_pca_embeddings_3d.png",
+          "title": "go emotions 6labels 08 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions_single_label/01-bert-base-uncased",
+      "slug": "pca-embedding-go-emotions-single-label-01-bert-base-uncased",
+      "path": "PCA_embedding/go_emotions_single_label/01-bert-base-uncased",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_single_label_01_pca_embeddings_2d.png",
+          "filename": "go_emotions_single_label_01_pca_embeddings_2d.png",
+          "title": "go emotions single label 01 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_single_label_01_pca_embeddings_3d.png",
+          "filename": "go_emotions_single_label_01_pca_embeddings_3d.png",
+          "title": "go emotions single label 01 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions_single_label/02-bert-base-uncased",
+      "slug": "pca-embedding-go-emotions-single-label-02-bert-base-uncased",
+      "path": "PCA_embedding/go_emotions_single_label/02-bert-base-uncased",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_single_label_02_pca_embeddings_2d.png",
+          "filename": "go_emotions_single_label_02_pca_embeddings_2d.png",
+          "title": "go emotions single label 02 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_single_label_02_pca_embeddings_3d.png",
+          "filename": "go_emotions_single_label_02_pca_embeddings_3d.png",
+          "title": "go emotions single label 02 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions_single_label/03-ibm-granite_granite-embedding-english-r2",
+      "slug": "pca-embedding-go-emotions-single-label-03-ibm-granite-granite-embedding-english-r2",
+      "path": "PCA_embedding/go_emotions_single_label/03-ibm-granite_granite-embedding-english-r2",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_single_label_03_pca_embeddings_2d.png",
+          "filename": "go_emotions_single_label_03_pca_embeddings_2d.png",
+          "title": "go emotions single label 03 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_single_label_03_pca_embeddings_3d.png",
+          "filename": "go_emotions_single_label_03_pca_embeddings_3d.png",
+          "title": "go emotions single label 03 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions_single_label/04-inaai_jina-embeddings-v2-base-en",
+      "slug": "pca-embedding-go-emotions-single-label-04-inaai-jina-embeddings-v2-base-en",
+      "path": "PCA_embedding/go_emotions_single_label/04-inaai_jina-embeddings-v2-base-en",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_single_label_04_pca_embeddings_2d.png",
+          "filename": "go_emotions_single_label_04_pca_embeddings_2d.png",
+          "title": "go emotions single label 04 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_single_label_04_pca_embeddings_3d.png",
+          "filename": "go_emotions_single_label_04_pca_embeddings_3d.png",
+          "title": "go emotions single label 04 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions_single_label/05-Qwen_Qwen3-Embedding-8B",
+      "slug": "pca-embedding-go-emotions-single-label-05-qwen-qwen3-embedding-8b",
+      "path": "PCA_embedding/go_emotions_single_label/05-Qwen_Qwen3-Embedding-8B",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_single_label_05_pca_embeddings_2d.png",
+          "filename": "go_emotions_single_label_05_pca_embeddings_2d.png",
+          "title": "go emotions single label 05 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_single_label_05_pca_embeddings_3d.png",
+          "filename": "go_emotions_single_label_05_pca_embeddings_3d.png",
+          "title": "go emotions single label 05 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions_single_label/06-roberta-base",
+      "slug": "pca-embedding-go-emotions-single-label-06-roberta-base",
+      "path": "PCA_embedding/go_emotions_single_label/06-roberta-base",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_single_label_06_pca_embeddings_2d.png",
+          "filename": "go_emotions_single_label_06_pca_embeddings_2d.png",
+          "title": "go emotions single label 06 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_single_label_06_pca_embeddings_3d.png",
+          "filename": "go_emotions_single_label_06_pca_embeddings_3d.png",
+          "title": "go emotions single label 06 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions_single_label/07-sentence-transformers_all-mpnet-base-v2",
+      "slug": "pca-embedding-go-emotions-single-label-07-sentence-transformers-all-mpnet-base-v2",
+      "path": "PCA_embedding/go_emotions_single_label/07-sentence-transformers_all-mpnet-base-v2",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_single_label_07_pca_embeddings_2d.png",
+          "filename": "go_emotions_single_label_07_pca_embeddings_2d.png",
+          "title": "go emotions single label 07 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_single_label_07_pca_embeddings_3d.png",
+          "filename": "go_emotions_single_label_07_pca_embeddings_3d.png",
+          "title": "go emotions single label 07 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions_single_label/08-all-MiniLM-L6-v2",
+      "slug": "pca-embedding-go-emotions-single-label-08-all-minilm-l6-v2",
+      "path": "PCA_embedding/go_emotions_single_label/08-all-MiniLM-L6-v2",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_single_label_08_pca_embeddings_2d.png",
+          "filename": "go_emotions_single_label_08_pca_embeddings_2d.png",
+          "title": "go emotions single label 08 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_single_label_08_pca_embeddings_3d.png",
+          "filename": "go_emotions_single_label_08_pca_embeddings_3d.png",
+          "title": "go emotions single label 08 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions/01-bert-base-uncased",
+      "slug": "pca-embedding-go-emotions-01-bert-base-uncased",
+      "path": "PCA_embedding/go_emotions/01-bert-base-uncased",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_01_pca_embeddings_2d.png",
+          "filename": "go_emotions_01_pca_embeddings_2d.png",
+          "title": "go emotions 01 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_01_pca_embeddings_3d.png",
+          "filename": "go_emotions_01_pca_embeddings_3d.png",
+          "title": "go emotions 01 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions/02-bert-base-uncased",
+      "slug": "pca-embedding-go-emotions-02-bert-base-uncased",
+      "path": "PCA_embedding/go_emotions/02-bert-base-uncased",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_02_pca_embeddings_2d.png",
+          "filename": "go_emotions_02_pca_embeddings_2d.png",
+          "title": "go emotions 02 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_02_pca_embeddings_3d.png",
+          "filename": "go_emotions_02_pca_embeddings_3d.png",
+          "title": "go emotions 02 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions/03-ibm-granite_granite-embedding-english-r2",
+      "slug": "pca-embedding-go-emotions-03-ibm-granite-granite-embedding-english-r2",
+      "path": "PCA_embedding/go_emotions/03-ibm-granite_granite-embedding-english-r2",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_03_pca_embeddings_2d.png",
+          "filename": "go_emotions_03_pca_embeddings_2d.png",
+          "title": "go emotions 03 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_03_pca_embeddings_3d.png",
+          "filename": "go_emotions_03_pca_embeddings_3d.png",
+          "title": "go emotions 03 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions/04-inaai_jina-embeddings-v2-base-en",
+      "slug": "pca-embedding-go-emotions-04-inaai-jina-embeddings-v2-base-en",
+      "path": "PCA_embedding/go_emotions/04-inaai_jina-embeddings-v2-base-en",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_04_pca_embeddings_2d.png",
+          "filename": "go_emotions_04_pca_embeddings_2d.png",
+          "title": "go emotions 04 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_04_pca_embeddings_3d.png",
+          "filename": "go_emotions_04_pca_embeddings_3d.png",
+          "title": "go emotions 04 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions/05-Qwen_Qwen3-Embedding-8B",
+      "slug": "pca-embedding-go-emotions-05-qwen-qwen3-embedding-8b",
+      "path": "PCA_embedding/go_emotions/05-Qwen_Qwen3-Embedding-8B",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_05_pca_embeddings_2d.png",
+          "filename": "go_emotions_05_pca_embeddings_2d.png",
+          "title": "go emotions 05 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_05_pca_embeddings_3d.png",
+          "filename": "go_emotions_05_pca_embeddings_3d.png",
+          "title": "go emotions 05 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions/06-roberta-base",
+      "slug": "pca-embedding-go-emotions-06-roberta-base",
+      "path": "PCA_embedding/go_emotions/06-roberta-base",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_06_pca_embeddings_2d.png",
+          "filename": "go_emotions_06_pca_embeddings_2d.png",
+          "title": "go emotions 06 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_06_pca_embeddings_3d.png",
+          "filename": "go_emotions_06_pca_embeddings_3d.png",
+          "title": "go emotions 06 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions/07-sentence-transformers_all-mpnet-base-v2",
+      "slug": "pca-embedding-go-emotions-07-sentence-transformers-all-mpnet-base-v2",
+      "path": "PCA_embedding/go_emotions/07-sentence-transformers_all-mpnet-base-v2",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_07_pca_embeddings_2d.png",
+          "filename": "go_emotions_07_pca_embeddings_2d.png",
+          "title": "go emotions 07 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_07_pca_embeddings_3d.png",
+          "filename": "go_emotions_07_pca_embeddings_3d.png",
+          "title": "go emotions 07 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/go_emotions/08-all-MiniLM-L6-v2",
+      "slug": "pca-embedding-go-emotions-08-all-minilm-l6-v2",
+      "path": "PCA_embedding/go_emotions/08-all-MiniLM-L6-v2",
+      "meta": {},
+      "items": [
+        {
+          "file": "go_emotions_08_pca_embeddings_2d.png",
+          "filename": "go_emotions_08_pca_embeddings_2d.png",
+          "title": "go emotions 08 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "go_emotions_08_pca_embeddings_3d.png",
+          "filename": "go_emotions_08_pca_embeddings_3d.png",
+          "title": "go emotions 08 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/twenty_newsgroups/01-bert-base-uncased",
+      "slug": "pca-embedding-twenty-newsgroups-01-bert-base-uncased",
+      "path": "PCA_embedding/twenty_newsgroups/01-bert-base-uncased",
+      "meta": {},
+      "items": [
+        {
+          "file": "twenty_newsgroups_01_pca_embeddings_2d.png",
+          "filename": "twenty_newsgroups_01_pca_embeddings_2d.png",
+          "title": "twenty newsgroups 01 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "twenty_newsgroups_01_pca_embeddings_3d.png",
+          "filename": "twenty_newsgroups_01_pca_embeddings_3d.png",
+          "title": "twenty newsgroups 01 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/twenty_newsgroups/02-bert-base-uncased",
+      "slug": "pca-embedding-twenty-newsgroups-02-bert-base-uncased",
+      "path": "PCA_embedding/twenty_newsgroups/02-bert-base-uncased",
+      "meta": {},
+      "items": [
+        {
+          "file": "twenty_newsgroups_02_pca_embeddings_2d.png",
+          "filename": "twenty_newsgroups_02_pca_embeddings_2d.png",
+          "title": "twenty newsgroups 02 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "twenty_newsgroups_02_pca_embeddings_3d.png",
+          "filename": "twenty_newsgroups_02_pca_embeddings_3d.png",
+          "title": "twenty newsgroups 02 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/twenty_newsgroups/03-ibm-granite_granite-embedding-english-r2",
+      "slug": "pca-embedding-twenty-newsgroups-03-ibm-granite-granite-embedding-english-r2",
+      "path": "PCA_embedding/twenty_newsgroups/03-ibm-granite_granite-embedding-english-r2",
+      "meta": {},
+      "items": [
+        {
+          "file": "twenty_newsgroups_03_pca_embeddings_2d.png",
+          "filename": "twenty_newsgroups_03_pca_embeddings_2d.png",
+          "title": "twenty newsgroups 03 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "twenty_newsgroups_03_pca_embeddings_3d.png",
+          "filename": "twenty_newsgroups_03_pca_embeddings_3d.png",
+          "title": "twenty newsgroups 03 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/twenty_newsgroups/04-inaai_jina-embeddings-v2-base-en",
+      "slug": "pca-embedding-twenty-newsgroups-04-inaai-jina-embeddings-v2-base-en",
+      "path": "PCA_embedding/twenty_newsgroups/04-inaai_jina-embeddings-v2-base-en",
+      "meta": {},
+      "items": [
+        {
+          "file": "twenty_newsgroups_04_pca_embeddings_2d.png",
+          "filename": "twenty_newsgroups_04_pca_embeddings_2d.png",
+          "title": "twenty newsgroups 04 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "twenty_newsgroups_04_pca_embeddings_3d.png",
+          "filename": "twenty_newsgroups_04_pca_embeddings_3d.png",
+          "title": "twenty newsgroups 04 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/twenty_newsgroups/05-Qwen_Qwen3-Embedding-8B",
+      "slug": "pca-embedding-twenty-newsgroups-05-qwen-qwen3-embedding-8b",
+      "path": "PCA_embedding/twenty_newsgroups/05-Qwen_Qwen3-Embedding-8B",
+      "meta": {},
+      "items": [
+        {
+          "file": "twenty_newsgroups_05_pca_embeddings_2d.png",
+          "filename": "twenty_newsgroups_05_pca_embeddings_2d.png",
+          "title": "twenty newsgroups 05 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "twenty_newsgroups_05_pca_embeddings_3d.png",
+          "filename": "twenty_newsgroups_05_pca_embeddings_3d.png",
+          "title": "twenty newsgroups 05 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/twenty_newsgroups/06-roberta-base",
+      "slug": "pca-embedding-twenty-newsgroups-06-roberta-base",
+      "path": "PCA_embedding/twenty_newsgroups/06-roberta-base",
+      "meta": {},
+      "items": [
+        {
+          "file": "twenty_newsgroups_06_pca_embeddings_2d.png",
+          "filename": "twenty_newsgroups_06_pca_embeddings_2d.png",
+          "title": "twenty newsgroups 06 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "twenty_newsgroups_06_pca_embeddings_3d.png",
+          "filename": "twenty_newsgroups_06_pca_embeddings_3d.png",
+          "title": "twenty newsgroups 06 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/twenty_newsgroups/07-sentence-transformers_all-mpnet-base-v2",
+      "slug": "pca-embedding-twenty-newsgroups-07-sentence-transformers-all-mpnet-base-v2",
+      "path": "PCA_embedding/twenty_newsgroups/07-sentence-transformers_all-mpnet-base-v2",
+      "meta": {},
+      "items": [
+        {
+          "file": "twenty_newsgroups_07_pca_embeddings_2d.png",
+          "filename": "twenty_newsgroups_07_pca_embeddings_2d.png",
+          "title": "twenty newsgroups 07 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "twenty_newsgroups_07_pca_embeddings_3d.png",
+          "filename": "twenty_newsgroups_07_pca_embeddings_3d.png",
+          "title": "twenty newsgroups 07 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "PCA_embedding/twenty_newsgroups/08-all-MiniLM-L6-v2",
+      "slug": "pca-embedding-twenty-newsgroups-08-all-minilm-l6-v2",
+      "path": "PCA_embedding/twenty_newsgroups/08-all-MiniLM-L6-v2",
+      "meta": {},
+      "items": [
+        {
+          "file": "twenty_newsgroups_08_pca_embeddings_2d.png",
+          "filename": "twenty_newsgroups_08_pca_embeddings_2d.png",
+          "title": "twenty newsgroups 08 pca embeddings 2d",
+          "type": "image"
+        },
+        {
+          "file": "twenty_newsgroups_08_pca_embeddings_3d.png",
+          "filename": "twenty_newsgroups_08_pca_embeddings_3d.png",
+          "title": "twenty newsgroups 08 pca embeddings 3d",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "results_top10/daircos_plot",
+      "slug": "results-top10-daircos-plot",
+      "path": "results_top10/daircos_plot",
+      "meta": {},
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 7.png",
+          "filename": "static_PCA_plot 7.png",
+          "title": "static PCA plot 7",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 9.png",
+          "filename": "static_PCA_plot 9.png",
+          "title": "static PCA plot 9",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 10.png",
+          "filename": "static_PCA_plot 10.png",
+          "title": "static PCA plot 10",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "results_top10/daireuc_plot",
+      "slug": "results-top10-daireuc-plot",
+      "path": "results_top10/daireuc_plot",
+      "meta": {},
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 7.png",
+          "filename": "static_PCA_plot 7.png",
+          "title": "static PCA plot 7",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 9.png",
+          "filename": "static_PCA_plot 9.png",
+          "title": "static PCA plot 9",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 10.png",
+          "filename": "static_PCA_plot 10.png",
+          "title": "static PCA plot 10",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "results_top10/goemo6cos_plot",
+      "slug": "results-top10-goemo6cos-plot",
+      "path": "results_top10/goemo6cos_plot",
+      "meta": {},
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 7.png",
+          "filename": "static_PCA_plot 7.png",
+          "title": "static PCA plot 7",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 9.png",
+          "filename": "static_PCA_plot 9.png",
+          "title": "static PCA plot 9",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "results_top10/goemo6euc_plot",
+      "slug": "results-top10-goemo6euc-plot",
+      "path": "results_top10/goemo6euc_plot",
+      "meta": {},
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 7.png",
+          "filename": "static_PCA_plot 7.png",
+          "title": "static PCA plot 7",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 9.png",
+          "filename": "static_PCA_plot 9.png",
+          "title": "static PCA plot 9",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 10.png",
+          "filename": "static_PCA_plot 10.png",
+          "title": "static PCA plot 10",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "results_top10/goemocos_plot",
+      "slug": "results-top10-goemocos-plot",
+      "path": "results_top10/goemocos_plot",
+      "meta": {},
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 7.png",
+          "filename": "static_PCA_plot 7.png",
+          "title": "static PCA plot 7",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 9.png",
+          "filename": "static_PCA_plot 9.png",
+          "title": "static PCA plot 9",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 10.png",
+          "filename": "static_PCA_plot 10.png",
+          "title": "static PCA plot 10",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "results_top10/goemoeuc_plot",
+      "slug": "results-top10-goemoeuc-plot",
+      "path": "results_top10/goemoeuc_plot",
+      "meta": {},
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 7.png",
+          "filename": "static_PCA_plot 7.png",
+          "title": "static PCA plot 7",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 9.png",
+          "filename": "static_PCA_plot 9.png",
+          "title": "static PCA plot 9",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 10.png",
+          "filename": "static_PCA_plot 10.png",
+          "title": "static PCA plot 10",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "results_top10/goemosinglecos_plot",
+      "slug": "results-top10-goemosinglecos-plot",
+      "path": "results_top10/goemosinglecos_plot",
+      "meta": {},
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 7.png",
+          "filename": "static_PCA_plot 7.png",
+          "title": "static PCA plot 7",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "name": "results_top10/goemosingleeuc_plot",
+      "slug": "results-top10-goemosingleeuc-plot",
+      "path": "results_top10/goemosingleeuc_plot",
+      "meta": {},
+      "items": [
+        {
+          "file": "static_PCA_plot 2.png",
+          "filename": "static_PCA_plot 2.png",
+          "title": "static PCA plot 2",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 3.png",
+          "filename": "static_PCA_plot 3.png",
+          "title": "static PCA plot 3",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 4.png",
+          "filename": "static_PCA_plot 4.png",
+          "title": "static PCA plot 4",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 5.png",
+          "filename": "static_PCA_plot 5.png",
+          "title": "static PCA plot 5",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 6.png",
+          "filename": "static_PCA_plot 6.png",
+          "title": "static PCA plot 6",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 7.png",
+          "filename": "static_PCA_plot 7.png",
+          "title": "static PCA plot 7",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 8.png",
+          "filename": "static_PCA_plot 8.png",
+          "title": "static PCA plot 8",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 9.png",
+          "filename": "static_PCA_plot 9.png",
+          "title": "static PCA plot 9",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot 10.png",
+          "filename": "static_PCA_plot 10.png",
+          "title": "static PCA plot 10",
+          "type": "image"
+        },
+        {
+          "file": "static_PCA_plot.png",
+          "filename": "static_PCA_plot.png",
+          "title": "static PCA plot",
           "type": "image"
         }
       ]
