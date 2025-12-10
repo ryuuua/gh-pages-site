@@ -1,5 +1,6 @@
 const PLOTS_PER_PAGE = 12;
-const MAX_ITEMS_PER_CATEGORY = 6;
+// Keep all items after regrouping by dataset; pagination handles load.
+const MAX_ITEMS_PER_CATEGORY = Infinity;
 const DEFAULT_MANIFEST_PATH = 'assets/data/gallery-data.json';
 const currentScriptTag = document.currentScript;
 const scriptDefinedManifest = currentScriptTag?.dataset?.manifest;
@@ -284,6 +285,22 @@ function coerceToSegments(value) {
 }
 
 function buildPathTagSegments(category, item) {
+  const preferredSources = [item?.tagPath, item?.path, item?.src];
+  for (const source of preferredSources) {
+    const segments = splitPathSegments(source);
+    if (!segments.length) continue;
+
+    const sanitized = [...segments];
+    const last = sanitized[sanitized.length - 1];
+    if (/\.[A-Za-z0-9]+$/.test(last)) {
+      sanitized.pop();
+    }
+
+    if (sanitized.length) {
+      return cleanSegments(sanitized.slice(-3));
+    }
+  }
+
   const categorySegments = splitPathSegments(category?.path);
   const itemSegments = splitPathSegments(item?.file);
 
@@ -363,7 +380,12 @@ function getTagSegments(item, category) {
 }
 
 function getItemSrc(item) {
-  return buildAssetPath(galleryData.baseUrl, currentCategory?.path, item.file);
+  if (item?.src) {
+    return buildAssetPath(galleryData.baseUrl, item.src);
+  }
+
+  const itemPath = item?.path || currentCategory?.path;
+  return buildAssetPath(galleryData.baseUrl, itemPath, item.file);
 }
 
 function getTotalPages() {
