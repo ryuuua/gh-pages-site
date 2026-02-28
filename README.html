@@ -10,20 +10,56 @@
 <body>
   <header class="site-header" role="banner">
     <div class="header-inner">
-      <a class="site-title" href="index.html">Plots Gallery</a>
+      <a class="site-title" rel="author" href="index.html">
+        CEBRA Plot Gallery
+      </a>
+
+      <input type="checkbox" id="site-nav-toggle" class="nav-toggle">
+      <label for="site-nav-toggle" class="nav-toggle-label">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="hamburger" aria-hidden="true"></span>
+      </label>
+
+      <nav class="site-nav" id="site-nav-menu" aria-label="Main navigation">
+        <div class="nav-groups">
+          <ul class="nav-group nav-group--global">
+            <li><a class="nav-link" href="index.html">Gallery</a></li>
+            <li><a class="nav-link" href="README.html">Docs</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
   </header>
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
       <section class="card">
-        <h1>How these plots are generated</h1>
+        <div class="page-hero">
+          <p class="page-hero-eyebrow">Documentation</p>
+          <h1 class="page-hero-title">How these plots are generated</h1>
+          <p class="page-hero-summary">
+            This gallery is a curated subset of visualizations from preliminary CEBRA-NLP research.
+          </p>
+        </div>
+
+        <div class="section-divider" aria-hidden="true"></div>
+
         <ol>
-          <li> These plots are selected subesets of plots from our preliminary research. 
-            <a href="https://openreview.net/forum?id=HgRkUfQSa4&referrer=%5Bthe%20profile%20of%20Kazushi%20Ikeda%5D(%2Fprofile%3Fid%3D~Kazushi_Ikeda1)">https://openreview.net/forum?id=HgRkUfQSa4&referrer=%5Bthe%20profile%20of%20Kazushi%20Ikeda%5D(%2Fprofile%3Fid%3D~Kazushi_Ikeda1)</a></li>
+          <li>
+            These plots are selected subsets from our preliminary research:
+            <a href="https://openreview.net/forum?id=HgRkUfQSa4&amp;referrer=%5Bthe%20profile%20of%20Kazushi%20Ikeda%5D(%2Fprofile%3Fid%3D~Kazushi_Ikeda1)">OpenReview paper link</a>
+          </li>
         </ol>
       </section>
     </div>
   </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p class="site-footer-owner">
+        © Ryunosuke Abe — Sample gallery of plots from the CEBRA_NLP-pub project.
+      </p>
+    </div>
+  </footer>
 </body>
 </html>

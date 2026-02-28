@@ -36,6 +36,16 @@ function formatSourceLabel(data = {}) {
   return data.sourceDir;
 }
 
+function summarizePath(value = '') {
+  if (!value) return '';
+  const normalized = value.replace(/\\/g, '/').replace(/\/+$/, '');
+  const parts = normalized.split('/').filter(Boolean);
+  if (parts.length <= 3) {
+    return normalized;
+  }
+  return `.../${parts.slice(-2).join('/')}`;
+}
+
 function resolveManifestPath() {
   if (scriptDefinedManifest) {
     return scriptDefinedManifest;
@@ -171,7 +181,10 @@ function highlightActiveCategory(slug) {
 
 function updateCategoryMeta() {
   if (!categoryMeta || !currentCategory) return;
-  categoryMeta.textContent = `${currentCategory.items.length} plots • ${currentCategory.path}`;
+  const plotLabel = `${currentCategory.items.length} plots`;
+  const pathLabel = summarizePath(currentCategory.path);
+  categoryMeta.textContent = pathLabel ? `${plotLabel} · ${pathLabel}` : plotLabel;
+  categoryMeta.title = currentCategory.path || '';
 }
 
 function renderGallery() {
@@ -475,10 +488,12 @@ async function initGallery() {
       const sourceLabel = formatSourceLabel(galleryData);
       if (sourceLabel) {
         sourcePath.textContent = `Source: ${sourceLabel}`;
-        sourcePath.style.display = 'block';
+        sourcePath.hidden = false;
+        sourcePath.title = galleryData.sourceDir || sourceLabel;
       } else {
         sourcePath.textContent = '';
-        sourcePath.style.display = 'none';
+        sourcePath.hidden = true;
+        sourcePath.title = '';
       }
     }
     buildCategoryNav();

@@ -12,7 +12,7 @@
   <header class="site-header" role="banner">
     <div class="header-inner">
       <a class="site-title" rel="author" href="index.html">
-        Plots Gallery (selected subset)
+        CEBRA Plot Gallery
       </a>
 
       <input type="checkbox" id="site-nav-toggle" class="nav-toggle">
@@ -35,16 +35,24 @@
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
       <section class="card" id="gallery">
-        <h1>Plots Gallery CEBRA_NLP</h1>
-        <p class="gallery-description">
-          This is a selected subset of plots from the <a href="https://github.com/ryuuua/CEBRA_NLP-pub"></a> project.
-          Including direct PCA visualzations of Language Embeddings and CEBRA visualizations.
-        </p>
-        <p class="gallery-source" id="gallery-source"></p>
+        <div class="page-hero">
+          <p class="page-hero-eyebrow">Selected Research Assets</p>
+          <h1 class="page-hero-title">Plots Gallery CEBRA_NLP</h1>
+          <p class="page-hero-summary">
+            This is a selected subset of plots from
+            <a href="https://github.com/ryuuua/CEBRA_NLP-pub">CEBRA_NLP-pub</a>,
+            including direct PCA visualizations of language embeddings and CEBRA outputs.
+          </p>
+          <div class="page-hero-meta" aria-live="polite">
+            <span class="meta-chip" id="gallery-source"></span>
+            <span class="meta-chip" id="category-meta"></span>
+          </div>
+        </div>
+
+        <div class="section-divider" aria-hidden="true"></div>
 
         <div class="category-bar">
           <div id="category-nav" class="category-nav" aria-label="Plot categories"></div>
-          <div id="category-meta" class="category-meta"></div>
         </div>
 
         <div id="gallery-message" class="gallery-message"></div>
@@ -71,4 +79,3 @@
   <script src="assets/js/gallery.js"></script>
 </body>
 </html>
-
